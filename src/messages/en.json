@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Kourion Ancient Amphitheater – Limassol, Cyprus",
+    "description": "Complete travel guide to Kourion Ancient Amphitheater in Limassol. Learn about this historic landmark, including location, views, access, and visitor information."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Kourion Ancient Amphitheater",
+    "subtitle": "Historic Landmark · Limassol, Cyprus",
+    "rating": "4.7",
+    "reviewCount": "6,274 reviews",
+    "type": "Ancient Monument",
+    "openMaps": "View on Google Maps",
+    "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
+  },
+  "intro": {
+    "title": "Discover Kourion Ancient Amphitheater",
+    "description": "The Ancient Theater of Kourion is one of the most impressive archaeological sites in Cyprus. Built in the 2nd century BC and expanded during Roman times, it offers breathtaking views of the Mediterranean Sea. Today, it continues to host cultural performances and concerts.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Best time to visit is early morning or late afternoon.",
+        "Wear comfortable shoes for walking on ancient stones.",
+        "Bring water and sun protection in summer.",
+        "Don't miss the panoramic view of the sea from the theater."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Spectacular Mediterranean views",
+        "Well-preserved Roman theater",
+        "Active cultural venue",
+        "Ancient architectural marvel"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "About Kourion Ancient Amphitheater",
+    "sections": [
+      {
+        "id": "history",
+        "title": "History & Archaeology",
+        "content": "The Ancient Theater of Kourion was built in the 2nd century BC and significantly expanded during the Roman period (2nd-3rd century AD). It could seat up to 3,500 spectators. The theater was destroyed by earthquakes in the 4th century AD but was partially restored in the 20th century."
+      },
+      {
+        "id": "geography",
+        "title": "Location & Views",
+        "content": "Located on a hill near Episkopi village in Limassol district, the theater offers panoramic views of the Mediterranean Sea and the surrounding countryside. Its elevated position (about 50m above sea level) provides natural acoustics and a stunning backdrop for performances."
+      },
+      {
+        "id": "architecture",
+        "title": "Architecture & Design",
+        "content": "The theater follows classical Hellenistic and Roman design principles with semicircular seating (cavea), a circular orchestra, and a scenic background (scaenae frons). The restoration work has preserved the original stone seating and architectural elements."
+      },
+      {
+        "id": "protection",
+        "title": "Preservation & Management",
+        "content": "The site is managed by the Department of Antiquities of Cyprus and is protected under Cypriot heritage laws. Ongoing conservation efforts ensure the theater remains structurally sound while maintaining its authenticity."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What are the opening hours of Kourion Theater?",
+        "answer": "The site is open daily from 8:30 AM to 5:00 PM (winter) or 8:30 AM to 7:30 PM (summer). Last admission is 30 minutes before closing."
+      },
+      {
+        "question": "Is there an entrance fee?",
+        "answer": "Yes, there is an entrance fee of €4.50 for adults. Children under 12 enter free. EU seniors (65+) get reduced rates."
+      },
+      {
+        "question": "Are there guided tours available?",
+        "answer": "Yes, guided tours are available through the Department of Antiquities or private tour operators. Audio guides may also be available at the entrance."
+      },
+      {
+        "question": "Is the site accessible for wheelchair users?",
+        "answer": "The main path to the theater is partially accessible, but the ancient stone steps and uneven terrain may be challenging. Contact the site in advance for assistance."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Kourion Ancient Amphitheater (Αρχαίο Θέατρο Κουρίου)",
+    "type": "Attraction Type",
+    "typeValue": "Ancient Monument / Archaeological Site",
+    "country": "Country",
+    "countryValue": "Cyprus",
+    "city": "City",
+    "cityValue": "Limassol (Lemesos)",
+    "googleRating": "Google Rating",
+    "googleRatingValue": "4.7 (6,274)",
+    "address": "Address",
+    "addressValue": "MV7Q+P49, Episkopi Lemesou 4620, Cyprus",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "MV7Q+P49"
+  },
+  "hours": {
+    "title": "Visiting Hours",
+    "park": "Site Access",
+    "parkTime": "Winter: 8:30-17:00, Summer: 8:30-19:30",
+    "bestTime": "Best Time to Visit",
+    "bestTimeSpring": "Spring: Pleasant weather, wildflowers bloom",
+    "bestTimeSummer": "Summer: Early morning or late afternoon recommended",
+    "bestTimeAutumn": "Autumn: Mild temperatures, ideal for exploring",
+    "bestTimeWinter": "Winter: Fewer crowds, clear atmosphere",
+    "tip": "Allow 1-2 hours for a full visit. Bring water and sun protection."
+  },
+  "tickets": {
+    "title": "Admission Information",
+    "park": "Site Admission",
+    "parkPrice": "€4.50 for adults, free for children under 12",
+    "parking": "Parking",
+    "parkingPrice": "Free parking available on-site",
+    "guided": "Guided Tours",
+    "guidedPrice": "Available through Department of Antiquities"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "fromCenter": "From Limassol Center",
+    "fromCenterDesc": "Distance about 19km west of Limassol. Car or bus recommended.",
+    "fromStation": "By Public Transport",
+    "fromStationDesc": "Take bus route 16 or 17 from Limassol to Episkopi.",
+    "fromAirport": "From Paphos/Larnaca Airport",
+    "fromAirportDesc": "Rent a car or take a taxi. About 40km from Larnaca, 50km from Paphos.",
+    "publicTransport": "Public Transport",
+    "publicTransportDesc": "Bus routes 16/17 from Limassol to Episkopi village.",
+    "walking": "Walking",
+    "walkingDesc": "Not recommended from Limassol center (19km).",
+    "driving": "Driving",
+    "drivingDesc": "Follow the B6 coast road west from Limassol. Well signposted."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Explore the ancient theater and surrounding ruins.",
+    "steps": [
+      "Enter the Kourion Archaeological Site",
+      "Visit the Ancient Theater first",
+      "Explore the Roman baths and houses",
+      "See the early Christian basilica",
+      "Enjoy the view from the theater seats"
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Ancient Beauty of Kourion",
+    "captions": [
+      "Theater overview from above",
+      "Seating area with sea view",
+      "Ancient stone seats",
+      "Stage and orchestra area",
+      "Panoramic Mediterranean view",
+      "Theater in golden sunlight",
+      "Ancient architectural details",
+      "Cavea and scenic background",
+      "Visitors exploring the site",
+      "Rear view of the theater",
+      "Surrounding archaeological ruins",
+      "Theater and coastline",
+      "Ancient performance venue",
+      "Stone pathways and entrance",
+      "Theater from different angle",
+      "Mediterranean backdrop",
+      "Ancient masonry details",
+      "Theater and landscape",
+      "Scenic view from seats",
+      "Ancient stones and sky",
+      "Theater at sunset"
+    ],
+    "viewAll": "View on Google Maps",
+    "showAll": "View All Photos",
+    "showLess": "Show Less"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Reviews can be viewed via Google Maps.",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "James W.",
+        "rating": 5,
+        "date": "2026-04-10",
+        "text": "Absolutely stunning! The view from the theater is breathtaking. A must-visit in Cyprus."
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "date": "2026-03-22",
+        "text": "Incredible ancient site with amazing acoustics. The Mediterranean backdrop is spectacular."
+      },
+      {
+        "name": "Andreas K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "Rich history and well-preserved. The theater still hosts performances - magical atmosphere!"
+      },
+      {
+        "name": "Emma L.",
+        "rating": 4,
+        "date": "2026-01-30",
+        "text": "Beautiful site with great views. Recommend visiting in the morning to avoid crowds."
+      },
+      {
+        "name": "Michael R.",
+        "rating": 5,
+        "date": "2025-12-18",
+        "text": "Fascinating piece of history. The audio guide was very informative."
+      },
+      {
+        "name": "Linda T.",
+        "rating": 5,
+        "date": "2025-11-25",
+        "text": "One of the best archaeological sites in Cyprus. The theater is remarkably preserved."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Map Location",
+    "subtitle": "MV7Q+P49, Episkopi Lemesou 4620, Cyprus",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "brandName": "Kourion Ancient Amphitheater",
+    "brandSubtitle": "Historic Landmark · Limassol, Cyprus",
+    "rights": "© 2026 Independent Tourism Research Project · All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official Resources & Information",
+    "officialLinks": {
+      "cyprusCulture": "Cyprus Department of Antiquities",
+      "visitCyprus": "Deputy Ministry of Tourism",
+      "limassolTourism": "Limassol Tourism Board",
+      "kourionOrg": "Kourion Municipality",
+      "europeana": "Europeana Cyprus Antiquities"
+    },
+    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Information Collection",
+        "content": "When you visit our website, we may automatically collect basic information about your device, browser, and browsing behavior to provide a better user experience. This information does not contain your personal identity."
+      },
+      {
+        "heading": "Use of Cookies",
+        "content": "We use cookies to analyze website traffic and optimize page content. You can manage your preferences at any time through the Cookie Settings option at the bottom of our site."
+      },
+      {
+        "heading": "Data Security and Protection",
+        "content": "We are committed to protecting the security of your privacy data and will not sell, rent, or trade your browsing data to third-party commercial organizations."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Website Content and Use",
+        "content": "This website provides travel, transport, and historical information about Kourion Ancient Amphitheater. All content is for reference only. Actual opening hours and attraction information may change at any time; please refer to official announcements."
+      },
+      {
+        "heading": "Intellectual Property",
+        "content": "The text, images, and designs on this website are protected by copyright. Without explicit written permission, no one may use the website content for commercial purposes."
+      },
+      {
+        "heading": "Disclaimer",
+        "content": "We strive to ensure the accuracy and timeliness of the information, but we do not assume legal responsibility for travel delays or losses caused directly or indirectly by using the information provided on this website."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Necessary for basic website functionality and cannot be disabled.",
+      "badge": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Help us understand visitor behavior and improve the website."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Used for cross-site tracking and delivering personalized ads."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences Saved!"
+  }
+}

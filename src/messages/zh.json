@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "库里翁古剧场 (Kourion Ancient Amphitheater) – 利马索尔, 塞浦路斯",
+    "description": "库里翁古剧场完整旅游指南。了解这个历史地标，包括位置、景观、交通和游览信息。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "库里翁古剧场",
+    "subtitle": "历史地标 · 利马索尔，塞浦路斯",
+    "rating": "4.7",
+    "reviewCount": "6,274 条评价",
+    "type": "古迹遗址",
+    "openMaps": "在Google地图上查看位置",
+    "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
+  },
+  "intro": {
+    "title": "探索库里翁古剧场",
+    "description": "库里翁古剧场是塞浦路斯最令人印象深刻的考古遗址之一。建于公元前2世纪，在罗马时期扩建，提供壮丽的地中海海景。如今，它继续举办文化表演和音乐会。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "最佳游览时间是清晨或傍晚。",
+        "穿舒适的鞋子在古石上行走。",
+        "夏季时携带水和防晒用品。",
+        "不要错过从剧场俯瞰大海的全景。"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "亮点",
+      "items": [
+        "壮观的地中海景色",
+        "保存完好的罗马剧场",
+        "活跃的文化场所",
+        "古代建筑奇迹"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "关于库里翁古剧场",
+    "sections": [
+      {
+        "id": "history",
+        "title": "历史与考古",
+        "content": "库里翁古剧场建于公元前2世纪，在罗马时期（2-3世纪AD）大幅扩建。可容纳多达3,500名观众。剧场在4世纪AD被地震摧毁，但在20世纪部分修复。"
+      },
+      {
+        "id": "geography",
+        "title": "位置与景观",
+        "content": "位于利马索尔区埃皮斯科皮村附近的山丘上，剧场提供地中海和周围乡村的全景。其高耸位置（海拔约50米）提供了自然音响效果和表演的惊人背景。"
+      },
+      {
+        "id": "architecture",
+        "title": "建筑与设计",
+        "content": "剧场遵循古典希腊化和罗马设计原则，拥有半圆形座位区（cavea）、圆形乐池（orchestra）和舞台背景（scaenae frons）。修复工作保留了原始的石制座位和建筑元素。"
+      },
+      {
+        "id": "protection",
+        "title": "保护与管埋",
+        "content": "该遗址由塞浦路斯古物局管理，并受塞浦路斯遗产法保护。持续的保护工作确保剧场结构安全，同时保持其真实性。"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题解答",
+    "items": [
+      {
+        "question": "库里翁剧场的开放时间是什么？",
+        "answer": "景区每天开放，冬季8:30-17:00，夏季8:30-19:30。最后一次入场在关闭前30分钟。"
+      },
+      {
+        "question": "需要门票吗？",
+        "answer": "是的，成人门票€4.50。12岁以下儿童免费。欧盟老年人（65+）享有折扣。"
+      },
+      {
+        "question": "有导游服务吗？",
+        "answer": "是的，可通过古物局或私人旅行社安排导游。入口处可能提供语音导览。"
+      },
+      {
+        "question": "轮椅使用者可以进入吗？",
+        "answer": "通往剧场的主要路径部分无障碍，但古老的石阶和不平坦的地形可能具有挑战性。请提前联系景区寻求帮助。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "基础信息",
+    "officialName": "正式名称",
+    "officialNameValue": "库里翁古剧场 (Kourion Ancient Amphitheater / Αρχαίο Θέατρο Κουρίου)",
+    "type": "景点类型",
+    "typeValue": "古迹遗址 / 考古遗址",
+    "country": "国家",
+    "countryValue": "塞浦路斯 (Cyprus)",
+    "city": "城市",
+    "cityValue": "利马索尔 (Lemesos)",
+    "googleRating": "谷歌评分",
+    "googleRatingValue": "4.7 (6,274)",
+    "address": "地址",
+    "addressValue": "MV7Q+P49, Episkopi Lemesou 4620, 塞浦路斯",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "MV7Q+P49"
+  },
+  "hours": {
+    "title": "开放时间",
+    "park": "景区进入",
+    "parkTime": "冬季：8:30-17:00，夏季：8:30-19:30",
+    "bestTime": "最佳游览时间",
+    "bestTimeSpring": "春季：气候宜人，野花盛开",
+    "bestTimeSummer": "夏季：建议清晨或傍晚，避免高温",
+    "bestTimeAutumn": "秋季：温度温和，适合探索",
+    "bestTimeWinter": "冬季：游客较少，空气清新",
+    "tip": "建议预留1-2小时完整参观。携带水和防晒用品。"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "park": "景区参观",
+    "parkPrice": "成人€4.50，12岁以下儿童免费",
+    "parking": "停车",
+    "parkingPrice": "现场有免费停车场",
+    "guided": "导游服务",
+    "guidedPrice": "可通过古物局安排"
+  },
+  "transport": {
+    "title": "交通指南",
+    "fromCenter": "从利马索尔市中心",
+    "fromCenterDesc": "距离利马索尔以西约19公里。建议开车或乘坐公交。",
+    "fromStation": "公共交通",
+    "fromStationDesc": "从利马索尔乘坐16或17路公交到埃皮斯科皮。",
+    "fromAirport": "从帕福斯/拉纳卡机场",
+    "fromAirportDesc": "租车或乘坐出租车。距拉纳卡约40公里，距帕福斯约50公里。",
+    "publicTransport": "公共交通",
+    "publicTransportDesc": "从利马索尔乘坐16/17路公交到埃皮斯科皮村。",
+    "walking": "步行",
+    "walkingDesc": "从利马索尔市中心步行不推荐（19公里）。",
+    "driving": "自驾",
+    "drivingDesc": "从利马索尔沿B6海岸公路向西。路标清晰。"
+  },
+  "route": {
+    "title": "推荐游览路线",
+    "overview": "探索古剧场和周围遗迹。",
+    "steps": [
+      "进入库里翁考古遗址",
+      "首先参观古剧场",
+      "探索罗马浴场和房屋",
+      "参观早期基督教巴西利卡",
+      "从剧场座位欣赏景色"
+    ]
+  },
+  "gallery": {
+    "title": "照片画廊",
+    "subtitle": "库里翁的古老之美",
+    "captions": [
+      "剧场俯瞰全景",
+      "带海景的座位区",
+      "古石座椅",
+      "舞台和乐池区域",
+      "地中海全景",
+      "金色阳光下的剧场",
+      "古建筑细节",
+      "座位区和舞台背景",
+      "游客探索遗址",
+      "剧场后视图",
+      "周围考古遗迹",
+      "剧场和海岸线",
+      "古代表演场地",
+      "石径和入口",
+      "不同角度的剧场",
+      "地中海背景",
+      "古 masonry 细节",
+      "剧场和景观",
+      "座位区的景观",
+      "古石和天空",
+      "日落时分的剧场"
+    ],
+    "viewAll": "在Google地图上查看位置",
+    "showAll": "显示完整照片",
+    "showLess": "收起照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可通过Google地图查看。",
+    "moreReviews": "在Google地图上查看更多评价",
+    "items": [
+      {
+        "name": "詹姆斯 W.",
+        "rating": 5,
+        "date": "2026-04-10",
+        "text": "绝对令人惊叹！从剧场看到的景色令人屏息。塞浦路斯的必游之地。"
+      },
+      {
+        "name": "索菲亚 M.",
+        "rating": 5,
+        "date": "2026-03-22",
+        "text": "令人难以置信的古迹，音响效果惊人。地中海背景壮观。"
+      },
+      {
+        "name": "安德烈亚斯 K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "丰富的历史和完好的保存。剧场仍举办表演 - 神奇的氛围！"
+      },
+      {
+        "name": "艾玛 L.",
+        "rating": 4,
+        "date": "2026-01-30",
+        "text": "美丽的遗址，景色很棒。建议早上参观以避开人群。"
+      },
+      {
+        "name": "迈克尔 R.",
+        "rating": 5,
+        "date": "2025-12-18",
+        "text": "迷人的历史片段。语音导览非常有用。"
+      },
+      {
+        "name": "琳达 T.",
+        "rating": 5,
+        "date": "2025-11-25",
+        "text": "塞浦路斯最好的考古遗址之一。剧场保存得非常出色。"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "MV7Q+P49, Episkopi Lemesou 4620, 塞浦路斯",
+    "openMaps": "在Google地图上查看位置"
+  },
+  "footer": {
+    "brandName": "库里翁古剧场",
+    "brandSubtitle": "历史地标 · 利马索尔，塞浦路斯",
+    "rights": "© 2026 独立旅游研究项目 · 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "官方资源与资讯",
+    "officialLinks": {
+      "cyprusCulture": "塞浦路斯共和国文化副部 - 古物局",
+      "visitCyprus": "塞浦路斯国家旅游副部",
+      "limassolTourism": "利马索尔大区官方旅游局",
+      "kourionOrg": "库里翁市政府",
+      "europeana": "塞浦路斯古物数字化平台"
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+  },
+  "officialManagement": {
+    "title": "关于库里翁古剧场",
+    "text": "库里翁古剧场由塞浦路斯古物局管理和保护。该遗址受塞浦路斯文化遗产法律保护。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "信息收集",
+        "content": "当您访问我们的网站时，我们可能会自动收集有关您的设备、浏览器和浏览行为的基本信息，以提供更好的用户体验。此信息不包含您的个人身份。"
+      },
+      {
+        "heading": "Cookie的使用",
+        "content": "我们使用cookie来分析网站流量并优化页面内容。您可以随时通过网站底部的\"Cookie设置\"选项管理您的偏好。"
+      },
+      {
+        "heading": "数据安全与保护",
+        "content": "我们致力于保护您的隐私数据安全，不会将您的浏览数据出售、出租或交易给第三方商业组织。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "网站内容与使用",
+        "content": "本网站提供有关库里翁古剧场的旅游、交通和历史信息。所有内容仅供参考。实际开放时间和景点信息可能随时更改；请参考官方公告。"
+      },
+      {
+        "heading": "知识产权",
+        "content": "本网站上的文本、图像和设计受版权保护。未经明确书面许可，任何人不得将网站内容用于商业目的。"
+      },
+      {
+        "heading": "免责声明",
+        "content": "我们努力确保信息的准确性和及时性，但对于因使用本网站提供的信息而直接或间接导致的旅行延误或损失，我们不承担法律责任。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的 Cookie 偏好。",
+    "essential": {
+      "title": "必要的 Cookie",
+      "description": "基本网站功能所必需的，无法禁用。",
+      "badge": "始终开启"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "帮助我们了解访问者行为并改进网站。"
+    },
+    "marketing": {
+      "title": "营销",
+      "description": "用于跨站跟踪和提供个性化广告。"
+    },
+    "save": "保存偏好",
+    "saved": "偏好已保存！"
+  }
+}
