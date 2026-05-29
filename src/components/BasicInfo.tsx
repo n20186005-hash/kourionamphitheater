@@ -20,8 +20,10 @@ export default function BasicInfo() {
           <InfoCard title={t('officialName')} value={t('officialNameValue')} />
           <InfoCard title={t('type')} value={t('typeValue')} />
           <InfoCard title={t('googleRating')} value={t('googleRatingValue')} />
+          {t.has('telephone') && <InfoCard title={t('telephone')} value={t('telephoneValue')} />}
+          {t.has('accessibility') && <InfoCard title={t('accessibility')} value={t('accessibilityValue')} />}
           <InfoCard title={t('plusCode')} value={t('plusCodeValue')} />
-          <div className="md:col-span-2 lg:col-span-2">
+          <div className="md:col-span-2 lg:col-span-3">
             <InfoCard title={t('address')} value={t('addressValue')} />
           </div>
         </div>

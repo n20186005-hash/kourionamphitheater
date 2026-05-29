@@ -100,7 +100,11 @@
     "googleRating": "Google Rating",
     "googleRatingValue": "4.7 (6,274)",
     "address": "Address",
-    "addressValue": "MV7Q+P49, Episkopi Lemesou 4620, Cyprus",
+    "addressValue": "Kourion, 19 km west of Limassol, on the road to Paphos",
+    "telephone": "Contact Phone",
+    "telephoneValue": "+357 25 934 250",
+    "accessibility": "Accessibility",
+    "accessibilityValue": "Partially accessible",
     "plusCode": "Plus Code",
     "plusCodeValue": "MV7Q+P49"
   },
@@ -244,6 +248,10 @@
       "europeana": "Europeana Cyprus Antiquities"
     },
     "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies."
+  },
+  "officialManagement": {
+    "title": "About Kourion Ancient Amphitheater",
+    "text": "The Kourion Ancient Amphitheater is managed and protected by the Department of Antiquities of Cyprus. The site is protected under the Cultural Heritage Laws of Cyprus."
   },
   "privacy": {
     "title": "Privacy Policy",

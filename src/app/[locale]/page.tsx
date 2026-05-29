@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
@@ -13,6 +14,27 @@ import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = 'https://kourionamphitheater.com';
+  return {
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        'zh': `${baseUrl}/zh`,
+        'en': `${baseUrl}/en`,
+        'el': `${baseUrl}/el`,
+        'tr': `${baseUrl}/tr`,
+        'x-default': `${baseUrl}/en`,
+      },
+    },
+  };
+}
 
 export default async function HomePage({
   params,

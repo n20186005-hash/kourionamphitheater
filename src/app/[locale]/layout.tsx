@@ -27,20 +27,9 @@ export async function generateMetadata({
     metadataBase: new URL(baseUrl),
     title: messages.meta.title,
     description: messages.meta.description,
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'el': elUrl,
-        'tr': trUrl,
-        'x-default': enUrl,
-      },
-    },
     openGraph: {
       title: messages.meta.title,
       description: messages.meta.description,
-      url: selfUrl,
       siteName: "Kourion Ancient Amphitheater",
       locale: locale === 'zh' ? 'zh_CN' : locale === 'en' ? 'en_US' : locale === 'el' ? 'el_GR' : 'tr_TR',
       type: 'website',
