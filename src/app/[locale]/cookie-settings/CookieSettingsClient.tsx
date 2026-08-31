@@ -69,6 +69,12 @@ export default function CookieSettingsClient() {
 
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, marketing }));
+    const w = window as any;
+    if (typeof w.gtag === 'function') {
+      w.gtag('consent', 'update', {
+        analytics_storage: analytics ? 'granted' : 'denied',
+      });
+    }
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }

@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 
 const baseUrl = 'https://kourionamphitheater.com';
 const heroImage = `${baseUrl}/gallery/kourion-ancient-amphitheater-1.jpg`;
+const GA_MEASUREMENT_ID = 'G-HXM22WWPKP';
 
 const langMap: Record<string, string> = {
   zh: 'zh-CN',
@@ -136,6 +137,42 @@ export default async function LocaleLayout({
               about: { '@id': `${baseUrl}/#attraction` },
               dateModified: '2026-08-31',
             }),
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+              });
+              (function() {
+                try {
+                  var prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
+                  if (prefs.analytics) {
+                    gtag('consent', 'update', { 'analytics_storage': 'granted' });
+                  }
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}');
+            `,
           }}
         />
         <script
