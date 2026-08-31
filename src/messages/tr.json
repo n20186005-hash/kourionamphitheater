@@ -155,24 +155,24 @@
     "subtitle": "Bu sayfa bağımsız, ticari olmayan bir eğitim rehberidir. Temel başvuru kaynakları:",
     "items": [
       {
-        "name": "Kıbrıs Eski Eserler Dairesi (resmi)",
-        "url": "https://www.mcw.gov.cy/da"
+        "name": "Kıbrıs Eski Eserler Dairesi (Kültür Bakan Yardımcılığı)",
+        "url": "https://www.culture.gov.cy/dmculture/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument"
       },
       {
         "name": "Visit Cyprus — Kourion Arkeolojik Alanı",
         "url": "https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
       },
       {
-        "name": "Visit Cyprus — Resmi Turizm Portalı",
-        "url": "https://www.visitcyprus.com/"
+        "name": "Limasol Turizm Kurulu",
+        "url": "https://www.limassoltourism.com/"
       },
       {
-        "name": "Visit Limassol — Limasol Resmi Turizm",
-        "url": "https://www.visitlimassol.com/"
+        "name": "Kourion Belediyesi",
+        "url": "https://kourion.org/"
       },
       {
-        "name": "Wikipedia — Kourion",
-        "url": "https://en.wikipedia.org/wiki/Kourion"
+        "name": "Europeana — Kıbrıs Eski Eserler Dijital Koleksiyonu",
+        "url": "https://www.europeana.eu/"
       }
     ],
     "disclaimer": "Açılış saatleri, ücretler ve tesisler habersiz değişebilir. Ziyaretinizden önce resmi kaynaklarla teyit edin."
@@ -216,7 +216,7 @@
       },
       {
         "question": "Giriş ücreti var mı?",
-        "answer": "Evet, yetişkinler için 4,50 € giriş ücreti vardır. 12 yaş altı çocuklar ücretsizdir."
+        "answer": "Evet, yetişkinler için 4,50 € giriş ücreti vardır. 12 yaş altı çocuklar ücretsizdir ve AB 65 yaş üstü ziyaretçiler indirimli bilet hakkına sahiptir. 10 veya daha fazla kişilik gruplar %20 indirim alır. Eski Eserler Dairesi ayrıca tüm anıtlarında ve müzelerinde geçerli site geçiş biletleri düzenler: bir gün 8,50 €, üç gün 17,00 € ve yedi gün 25,00 €."
       },
       {
         "question": "Rehberli turlar mevcut mu?",
@@ -305,13 +305,13 @@
   "hours": {
     "title": "Ziyaret Saatleri",
     "park": "Site Erişimi",
-    "parkTime": "Kış: 08:30-17:00, Yaz: 08:30-19:30",
+    "parkTime": "Kış (16 Eyl – 15 Nis): 08:30–17:00 · Yaz (16 Nis – 15 Eyl): 08:30–19:30",
     "bestTime": "En İyi Ziyaret Zamanı",
     "bestTimeSpring": "İlkbahar: Güzel hava, yabani çiçekler açar",
     "bestTimeSummer": "Yaz: Sabah erken veya geç öğleden sonra önerilir",
     "bestTimeAutumn": "Sonbahar: Ilıman sıcaklıklar, keşfetmek için ideal",
     "bestTimeWinter": "Kış: Daha az kalabalık, berrak atmosfer",
-    "tip": "Tam bir ziyaret için 1-2 saat ayırın. Su ve güneş koruyucu getirin."
+    "tip": "Tam bir ziyaret için 1-2 saat ayırın. Su ve güneş koruyucu getirin. Site, Noel, Yılbaşı ve Rum Ortodoks Paskalyası günlerinde kapalıdır."
   },
   "tickets": {
     "title": "Giriş Bilgileri",
@@ -351,6 +351,7 @@
   "gallery": {
     "title": "Fotoğraf Galerisi",
     "subtitle": "Kourion'un Antik Güzelliği",
+    "credit": "Tüm fotoğraflar ilgili fotoğrafçıların mülkiyetindedir. Telif hakkı orijinal fotoğrafçılara aittir.",
     "captions": [
       "Yukarıdan tiyatro genel görünümü",
       "Deniz manzaralı oturma alanı",
@@ -430,6 +431,7 @@
     "brandName": "Kourion Antik Tiyatrosu",
     "brandSubtitle": "Tarihi Simge · Episkopi, Limasol, Kıbrıs",
     "rights": "© 2026 Bağımsız Turizm Araştırma Projesi · Tüm Hakları Saklıdır.",
+    "imageCopyright": "Bu web sitesinde gösterilen tüm görseller ilgili fotoğrafçıların mülkiyetindedir ve telif hakkı ile korunmaktadır.",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "cookies": "Çerez Ayarları",

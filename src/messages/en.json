@@ -155,24 +155,24 @@
     "subtitle": "This page is an independent, non-commercial educational guide. Main reference materials:",
     "items": [
       {
-        "name": "Department of Antiquities of Cyprus (official)",
-        "url": "https://www.mcw.gov.cy/da"
+        "name": "Department of Antiquities of Cyprus (Deputy Ministry of Culture)",
+        "url": "https://www.culture.gov.cy/dmculture/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument"
       },
       {
         "name": "Visit Cyprus — Kourion Archaeological Site",
         "url": "https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
       },
       {
-        "name": "Visit Cyprus — Official Tourism Portal",
-        "url": "https://www.visitcyprus.com/"
+        "name": "Limassol Tourism Board",
+        "url": "https://www.limassoltourism.com/"
       },
       {
-        "name": "Visit Limassol — Official Tourism Board",
-        "url": "https://www.visitlimassol.com/"
+        "name": "Kourion Municipality",
+        "url": "https://kourion.org/"
       },
       {
-        "name": "Wikipedia — Kourion",
-        "url": "https://en.wikipedia.org/wiki/Kourion"
+        "name": "Europeana — Cyprus Antiquities Digital Collection",
+        "url": "https://www.europeana.eu/"
       }
     ],
     "disclaimer": "Opening hours, fees and facilities may change without notice. Please confirm with official sources before your visit."
@@ -216,7 +216,7 @@
       },
       {
         "question": "Is there an entrance fee?",
-        "answer": "Yes, there is an entrance fee of €4.50 for adults. Children under 12 enter free. EU seniors (65+) get reduced rates."
+        "answer": "Yes, there is an entrance fee of €4.50 for adults. Children under 12 enter free, and EU seniors (65+) are eligible for reduced tickets. Groups of 10 or more receive a 20% discount. The Department of Antiquities also offers site passes valid at all its monuments and museums: €8.50 for one day, €17.00 for three days and €25.00 for seven days."
       },
       {
         "question": "Are there guided tours available?",
@@ -305,13 +305,13 @@
   "hours": {
     "title": "Visiting Hours",
     "park": "Site Access",
-    "parkTime": "Winter: 8:30-17:00, Summer: 8:30-19:30",
+    "parkTime": "Winter (Sep 16 – Apr 15): 8:30–17:00 · Summer (Apr 16 – Sep 15): 8:30–19:30",
     "bestTime": "Best Time to Visit",
     "bestTimeSpring": "Spring: Pleasant weather, wildflowers bloom",
     "bestTimeSummer": "Summer: Early morning or late afternoon recommended",
     "bestTimeAutumn": "Autumn: Mild temperatures, ideal for exploring",
     "bestTimeWinter": "Winter: Fewer crowds, clear atmosphere",
-    "tip": "Allow 1-2 hours for a full visit. Bring water and sun protection."
+    "tip": "Allow 1-2 hours for a full visit. Bring water and sun protection. The site is closed on Christmas, New Year's Day and Greek Orthodox Easter."
   },
   "tickets": {
     "title": "Admission Information",
@@ -351,6 +351,7 @@
   "gallery": {
     "title": "Photo Gallery",
     "subtitle": "Ancient Beauty of Kourion",
+    "credit": "All photos are the property of their respective photographers. Copyright reserved to the original photographers.",
     "captions": [
       "Theater overview from above",
       "Seating area with sea view",
@@ -430,6 +431,7 @@
     "brandName": "Kourion Ancient Amphitheater",
     "brandSubtitle": "Historic Landmark · Episkopi, Limassol, Cyprus",
     "rights": "© 2026 Independent Tourism Research Project · All Rights Reserved.",
+    "imageCopyright": "All images shown on this website are the property of their respective photographers and are protected by copyright.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",

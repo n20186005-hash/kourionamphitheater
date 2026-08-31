@@ -24,16 +24,10 @@ export default function manifest(): MetadataRoute.Manifest {
         purpose: 'any',
       },
       {
-        src: '/gallery/kourion-ancient-amphitheater-1.jpg',
-        sizes: '512x512',
-        type: 'image/jpeg',
-        purpose: 'any',
-      },
-      {
-        src: '/gallery/kourion-ancient-amphitheater-1.jpg',
-        sizes: '192x192',
-        type: 'image/jpeg',
-        purpose: 'any',
+        src: '/icons/icon.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'maskable',
       },
     ],
   };

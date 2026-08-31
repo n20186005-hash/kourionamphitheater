@@ -10,7 +10,7 @@ const heroImage = `${baseUrl}/gallery/kourion-ancient-amphitheater-1.jpg`;
 const langMap: Record<string, string> = {
   zh: 'zh-CN',
   en: 'en',
-  el: 'el-GR',
+  el: 'el',
   tr: 'tr',
 };
 
@@ -87,13 +87,57 @@ export default async function LocaleLayout({
   return (
     <html lang={langMap[locale] || 'en'} suppressHydrationWarning>
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
-        <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
         <meta name="theme-color" content="#234d5c" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Kourion Theater" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              '@id': `${baseUrl}/#organization`,
+              name: 'Kourion Ancient Amphitheater Visitor Guide',
+              url: `${baseUrl}/`,
+              description:
+                'Independent, non-commercial educational visitor guide to the Kourion Ancient Amphitheater in Episkopi, Limassol District, Cyprus.',
+              nonprofitStatus: 'https://schema.org/NonprofitType',
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              '@id': `${baseUrl}/#website`,
+              url: `${baseUrl}/`,
+              name: 'Kourion Ancient Amphitheater – Visitor Guide',
+              inLanguage: ['en', 'zh', 'el', 'tr'],
+              publisher: { '@id': `${baseUrl}/#organization` },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebPage',
+              '@id': `${selfUrl}#webpage`,
+              url: selfUrl,
+              inLanguage: langMap[locale] || 'en',
+              name: messages.meta.title,
+              description: messages.meta.description,
+              isPartOf: { '@id': `${baseUrl}/#website` },
+              about: { '@id': `${baseUrl}/#attraction` },
+              dateModified: '2026-08-31',
+            }),
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

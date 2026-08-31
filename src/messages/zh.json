@@ -52,7 +52,12 @@
       {
         "id": "history",
         "title": "历史与考古",
-        "content": "库里翁在古代是一个重要的城邦王国，也是塞浦路斯最令人印象深刻的考古遗址之一。其剧院位于城市所在的陡峭山丘的南端，具有重要的历史意义。该剧场建于公元前 2 世纪末，但其目前的规模是在公元 2 世纪形成的。它由一个半圆形乐池和环绕其周围的地下剧场座位组成，南侧由舞台前墙（scaenae frons）围合，如今只剩下地基。"
+        "content": "库里翁在古代是一个重要的城邦王国，也是塞浦路斯最令人印象深刻的考古遗址之一。其剧院位于城市所在的陡峭山丘的南端，具有重要的历史意义。该剧场建于公元前 2 世纪末，但其目前的规模是在公元 2 世纪形成的。它由一个半圆形乐池和环绕其周围的地下剧场座位组成，南侧由舞台前墙（scaenae frons）围合，如今只剩下地基。考古发掘始于 1933 年宾夕法尼亚大学，此后多支大学考古队与塞浦路斯古物局相继参与发掘。"
+      },
+      {
+        "id": "geography",
+        "title": "位置与景观",
+        "content": "位于利马索尔区埃皮斯科皮村附近的山丘上，剧场提供地中海和周围乡村的全景。其高耸位置（海拔约50米）提供了自然音响效果和表演的惊人背景。"
       },
       {
         "id": "architecture",
@@ -60,14 +65,9 @@
         "content": "舞台两侧是两条拱形走廊，观众由此进入剧院。剧院最多可容纳3500名观众。公元3世纪初，剧院进行了改建，被改造成一个用于斗兽的竞技场。公元3世纪末，斗兽场表演逐渐衰落，剧院也恢复了其原有的用途。"
       },
       {
-        "id": "excavation",
-        "title": "考古发掘与现状",
-        "content": "挖掘工作始于 1933 年，由宾夕法尼亚大学进行，随后许多其他大学考古队以及塞浦路斯文物部继续进行挖掘工作。如今，这里是许多文化活动和戏剧表演的举办地，尤其是在夏季。"
-      },
-      {
-        "id": "geography",
-        "title": "位置与景观",
-        "content": "位于利马索尔区埃皮斯科皮村附近的山丘上，剧场提供地中海和周围乡村的全景。其高耸位置（海拔约50米）提供了自然音响效果和表演的惊人背景。"
+        "id": "protection",
+        "title": "保护与管理",
+        "content": "该遗址由塞浦路斯古物局管理，受塞浦路斯遗产法律保护。持续的保护工程确保剧场结构稳固并保持其真实性。如今，这里也是许多文化活动和戏剧表演的举办地，尤其是在夏季。"
       }
     ]
   },
@@ -155,24 +155,24 @@
     "subtitle": "本页面为独立的非商业科普指南。主要参考资料：",
     "items": [
       {
-        "name": "塞浦路斯古物局（官方）",
-        "url": "https://www.mcw.gov.cy/da"
+        "name": "塞浦路斯文化副部 - 古物局",
+        "url": "https://www.culture.gov.cy/dmculture/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument"
       },
       {
-        "name": "Visit Cyprus — 库里翁考古遗址",
+        "name": "Visit Cyprus — 库里翁考古遗址专页",
         "url": "https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
       },
       {
-        "name": "Visit Cyprus — 官方旅游门户",
-        "url": "https://www.visitcyprus.com/"
+        "name": "利马索尔大区官方旅游局",
+        "url": "https://www.limassoltourism.com/"
       },
       {
-        "name": "Visit Limassol — 利马索尔官方旅游",
-        "url": "https://www.visitlimassol.com/"
+        "name": "库里翁市政府",
+        "url": "https://kourion.org/"
       },
       {
-        "name": "维基百科 — Kourion",
-        "url": "https://en.wikipedia.org/wiki/Kourion"
+        "name": "Europeana — 塞浦路斯古物数字化馆藏",
+        "url": "https://www.europeana.eu/"
       }
     ],
     "disclaimer": "开放时间、门票与设施可能随时变更，请以官方信息为准。"
@@ -216,7 +216,7 @@
       },
       {
         "question": "需要门票吗？",
-        "answer": "是的，门票4.50欧元。10人以上的团体可享受20%折扣。文物部门也发行所有博物馆和古代遗址的特惠门票：一日票8.50欧元，三日票17.00欧元，七日票25.00欧元。"
+        "answer": "是的，成人门票 4.50 欧元，12 岁以下儿童免费，欧盟 65 岁以上老人可享优惠票价。10 人以上团体享 20% 折扣。古物局还发行覆盖其所有遗址与博物馆的特惠通票：一日票 8.50 欧元，三日票 17.00 欧元，七日票 25.00 欧元。"
       },
       {
         "question": "有导游服务吗？",
@@ -315,12 +315,12 @@
   },
   "tickets": {
     "title": "门票信息",
-    "park": "景区参观",
-    "parkPrice": "€4.50（10人以上团体享20%折扣）",
-    "parking": "特惠套票",
-    "parkingPrice": "一日票€8.50 | 三日票€17.00 | 七日票€25.00",
-    "guided": "语音导览",
-    "guidedPrice": "入口处可能提供语音导览设备"
+    "park": "遗址参观",
+    "parkPrice": "成人 €4.50，12 岁以下儿童免费",
+    "parking": "停车",
+    "parkingPrice": "遗址内提供免费停车",
+    "guided": "导览",
+    "guidedPrice": "由古物局提供（可现场咨询）"
   },
   "transport": {
     "title": "位置与如何游览库里翁（埃皮斯科皮）",
@@ -351,6 +351,7 @@
   "gallery": {
     "title": "照片画廊",
     "subtitle": "库里翁的古老之美",
+    "credit": "所有照片产权及版权均归原摄影者所有。",
     "captions": [
       "剧场俯瞰全景",
       "带海景的座位区",
@@ -430,6 +431,7 @@
     "brandName": "库里翁古剧场",
     "brandSubtitle": "历史地标 · 埃皮斯科皮，利马索尔，塞浦路斯",
     "rights": "© 2026 独立旅游研究项目 · 保留所有权利。",
+    "imageCopyright": "本网站所展示的所有图片产权及版权均归原摄影者所有。",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "Cookie 设置",

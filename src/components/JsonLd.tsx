@@ -30,9 +30,8 @@ const allDays = [
 export default async function JsonLd({ locale }: { locale: string }) {
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
 
-  const faqItems: Array<{ question: string; answer: string }> = (
-    messages?.faq?.items || []
-  ).slice(0, 3);
+  const faqItems: Array<{ question: string; answer: string }> =
+    messages?.faq?.items || [];
 
   const description =
     messages?.meta?.description ||
