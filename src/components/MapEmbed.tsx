@@ -28,15 +28,39 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Kourion+Ancient+Amphitheater+Lemesos+Cyprus&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6202816563145!2d32.8878555!3d34.6642914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e7255b560946e3%3A0x6c6bcb33237595c5!2s%CE%9Aourion%20Ancient%20Amphitheater!5e0!3m2!1szh-CN!2s!4v1788168509772!5m2!1szh-CN!2s"
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerPolicy="strict-origin-when-cross-origin"
             title="Google Maps - Kourion Ancient Amphitheater"
           />
+        </div>
+
+        {/* Official tourism portal */}
+        <div
+          className="mt-6 rounded-xl p-5 text-center"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+        >
+          <p className="text-sm mb-2" style={{ color: 'var(--text-secondary)' }}>
+            {t('officialPortal')}
+          </p>
+          <a
+            href="https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium hover:underline"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('portalName')}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
         </div>
 
         {/* Open in Google Maps */}

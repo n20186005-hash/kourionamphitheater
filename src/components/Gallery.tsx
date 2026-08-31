@@ -8,23 +8,21 @@ const photos = [
   { src: '/gallery/kourion-ancient-amphitheater-2.jpg', alt: 'Kourion Ancient Amphitheater Photo 2' },
   { src: '/gallery/kourion-ancient-amphitheater-3.jpg', alt: 'Kourion Ancient Amphitheater Photo 3' },
   { src: '/gallery/kourion-ancient-amphitheater-4.jpg', alt: 'Kourion Ancient Amphitheater Photo 4' },
-  { src: '/gallery/kourion-ancient-amphitheater-5.jpg', alt: 'Kourion Ancient Amphitheater Photo 5' },
-  { src: '/gallery/kourion-ancient-amphitheater-6.jpg', alt: 'Kourion Ancient Amphitheater Photo 6' },
-  { src: '/gallery/kourion-ancient-amphitheater-7.jpg', alt: 'Kourion Ancient Amphitheater Photo 7' },
-  { src: '/gallery/kourion-ancient-amphitheater-8.jpg', alt: 'Kourion Ancient Amphitheater Photo 8' },
-  { src: '/gallery/kourion-ancient-amphitheater-9.jpg', alt: 'Kourion Ancient Amphitheater Photo 9' },
-  { src: '/gallery/kourion-ancient-amphitheater-10.jpg', alt: 'Kourion Ancient Amphitheater Photo 10' },
-  { src: '/gallery/kourion-ancient-amphitheater-11.jpg', alt: 'Kourion Ancient Amphitheater Photo 11' },
-  { src: '/gallery/kourion-ancient-amphitheater-12.jpg', alt: 'Kourion Ancient Amphitheater Photo 12' },
-  { src: '/gallery/kourion-ancient-amphitheater-13.jpg', alt: 'Kourion Ancient Amphitheater Photo 13' },
-  { src: '/gallery/kourion-ancient-amphitheater-14.jpg', alt: 'Kourion Ancient Amphitheater Photo 14' },
-  { src: '/gallery/kourion-ancient-amphitheater-15.jpg', alt: 'Kourion Ancient Amphitheater Photo 15' },
-  { src: '/gallery/kourion-ancient-amphitheater-16.jpg', alt: 'Kourion Ancient Amphitheater Photo 16' },
-  { src: '/gallery/kourion-ancient-amphitheater-17.jpg', alt: 'Kourion Ancient Amphitheater Photo 17' },
-  { src: '/gallery/kourion-ancient-amphitheater-18.jpg', alt: 'Kourion Ancient Amphitheater Photo 18' },
-  { src: '/gallery/kourion-ancient-amphitheater-19.jpg', alt: 'Kourion Ancient Amphitheater Photo 19' },
-  { src: '/gallery/kourion-ancient-amphitheater-20.jpg', alt: 'Kourion Ancient Amphitheater Photo 20' },
-  { src: '/gallery/kourion-ancient-amphitheater-21.jpg', alt: 'Kourion Ancient Amphitheater Photo 21' },
+  { src: '/gallery/kourion-ancient-amphitheater-6.jpg', alt: 'Kourion Ancient Amphitheater Photo 5' },
+  { src: '/gallery/kourion-ancient-amphitheater-7.jpg', alt: 'Kourion Ancient Amphitheater Photo 6' },
+  { src: '/gallery/kourion-ancient-amphitheater-8.jpg', alt: 'Kourion Ancient Amphitheater Photo 7' },
+  { src: '/gallery/kourion-ancient-amphitheater-9.jpg', alt: 'Kourion Ancient Amphitheater Photo 8' },
+  { src: '/gallery/kourion-ancient-amphitheater-10.jpg', alt: 'Kourion Ancient Amphitheater Photo 9' },
+  { src: '/gallery/kourion-ancient-amphitheater-11.jpg', alt: 'Kourion Ancient Amphitheater Photo 10' },
+  { src: '/gallery/kourion-ancient-amphitheater-12.jpg', alt: 'Kourion Ancient Amphitheater Photo 11' },
+  { src: '/gallery/kourion-ancient-amphitheater-13.jpg', alt: 'Kourion Ancient Amphitheater Photo 12' },
+  { src: '/gallery/kourion-ancient-amphitheater-14.jpg', alt: 'Kourion Ancient Amphitheater Photo 13' },
+  { src: '/gallery/kourion-ancient-amphitheater-15.jpg', alt: 'Kourion Ancient Amphitheater Photo 14' },
+  { src: '/gallery/kourion-ancient-amphitheater-16.jpg', alt: 'Kourion Ancient Amphitheater Photo 15' },
+  { src: '/gallery/kourion-ancient-amphitheater-17.jpg', alt: 'Kourion Ancient Amphitheater Photo 16' },
+  { src: '/gallery/kourion-ancient-amphitheater-18.jpg', alt: 'Kourion Ancient Amphitheater Photo 17' },
+  { src: '/gallery/kourion-ancient-amphitheater-19.jpg', alt: 'Kourion Ancient Amphitheater Photo 18' },
+  { src: '/gallery/kourion-ancient-amphitheater-20.jpg', alt: 'Kourion Ancient Amphitheater Photo 19' },
 ];
 
 export default function Gallery() {
@@ -51,7 +49,7 @@ export default function Gallery() {
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
 
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/Dupzqbpja8DxWKSH8';
+  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/KxwFywyG12yxtgsF9';
 
   return (
     <>

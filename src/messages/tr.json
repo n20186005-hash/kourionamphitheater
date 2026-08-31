@@ -1,27 +1,32 @@
 {
   "meta": {
-    "title": "Kourion Antik Tiyatrosu – Limasol, Kıbrıs",
-    "description": "Kourion Antik Tiyatrosu'nun tam seyahat rehberi. Konum, manzara, ulaşım ve ziyaretçi bilgileri dahil olmak üzere bu tarihi simge hakkında bilgi edinin."
+    "title": "Kourion Antik Tiyatrosu (Episkopi) - Ziyaretçi Rehberi & Konum",
+    "description": "Kıbrıs'ın Limasol bölgesindeki Episkopi'de yer alan ikonik simge Kourion Antik Tiyatrosu'nu keşfedin. Konum haritası, açılış saatleri, yakındaki Apollon Hylates Tapınağı ve seyahat ipuçlarını görüntüleyin."
   },
   "header": {
     "home": "Ana Sayfa",
     "gallery": "Galeri",
+    "legends": "Tarih & Efsaneler",
+    "facilities": "Tesisler",
     "reviews": "Yorumlar",
     "map": "Harita",
     "backToHome": "Ana Sayfaya Dön"
   },
   "hero": {
-    "title": "Kourion Antik Tiyatrosu",
-    "subtitle": "Tarihi Simge · Limasol, Kıbrıs",
+    "title": "Kourion Antik Tiyatrosu (Episkopi)",
+    "subtitle": "Tarihi Simge · Episkopi, Limasol, Kıbrıs",
     "rating": "4.7",
-    "reviewCount": "6.274 yorum",
+    "reviewCount": "6.433 yorum",
     "type": "Antik Anıt",
     "openMaps": "Google Maps'te Görüntüle",
     "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
   },
   "intro": {
     "title": "Kourion Antik Tiyatrosu'nu Keşfedin",
+    "entityDeclaration": "Kourion Antik Tiyatrosu'na hoş geldiniz; yaygın olarak merkez Kourion olarak tanınır. Kıbrıs'ın Limasol bölgesindeki Episkopi'nin kalbinde yer alan bu destinasyon, bölgeyi ziyaret eden gezginler için ana bir merkezdir.",
     "description": "Kourion Antik Tiyatrosu, Kıbrıs'ın en etkileyici arkeolojik sitelerinden biridir. M.Ö. 2. yüzyılda inşa edilmiş ve Roma döneminde genişletilmiş olup, Akdeniz'in nefes kesen manzaralarını sunar.",
+    "breadcrumb": "Kourion Antik Tiyatrosu → Episkopi → Limasol Bölgesi → Kıbrıs",
+    "nearbyCluster": "Kourion Antik Tiyatrosu'nu ziyaret ederken, Apollon Hylates Tapınağı ve Eustolios Evi dahil çevredeki tarihi simge yapıları ve ilgi çekici noktaları kolayca keşfedebilirsiniz.",
     "visitGuide": {
       "title": "Ziyaret İpuçları",
       "items": [
@@ -66,6 +71,142 @@
       }
     ]
   },
+  "facilities": {
+    "title": "Ziyaretçi Tesisleri ve Olanakları",
+    "overview": "Aşağıdaki olanaklar sit alanında veya yakınında mevcuttur. Bağımsız, ticari olmayan bir rehber olarak yalnızca tesis türlerini açıklıyoruz — belirli işletmeler önerilmez.",
+    "items": [
+      {
+        "name": "Umumi Tuvaletler",
+        "description": "Arkeolojik sit girişinde tuvaletler bulunmaktadır. Bulunabilirlik mevsime göre değişebilir."
+      },
+      {
+        "name": "Otopark",
+        "description": "Sit girişinin yakınında ücretsiz otopark mevcuttur. Yoğun yaz günlerinde erken gelin."
+      },
+      {
+        "name": "Yeme-İçme",
+        "description": "Episkopi köyünde ve Kourion Plajı yolunda geleneksel Kıbrıs tavernaları, kafeler, fırınlar ve hafif yemek seçenekleri bulunur."
+      },
+      {
+        "name": "Konaklama",
+        "description": "Limasol şehri ve çevre köylerde, kısa sürüş mesafesinde oteller, pansiyonlar, tatil daireleri ve sahil resortları mevcuttur."
+      },
+      {
+        "name": "Mağazalar ve Süpermarketler",
+        "description": "Episkopi köyünde ve yakın kasabalarda süpermarketler, mini marketler ve marketler hizmet verir."
+      },
+      {
+        "name": "Yakıt ve Şarj",
+        "description": "B6 sahil yolu boyunca benzin istasyonları bulunur. Limasol ve daha büyük şehirlerde elektrikli araç şarj noktaları mevcuttur."
+      },
+      {
+        "name": "Su ve Gölgelik",
+        "description": "Sit alanı açık ve güneşe maruzdur; özellikle Haziran-Eylül arasında içme suyu ve güneş koruması getirin."
+      },
+      {
+        "name": "Erişilebilirlik",
+        "description": "Tiyatroya giden ana yol kısmen erişilebilir. Antik taş basamaklar ve engebeli zemin tam tekerlekli sandalye erişimini sınırlar."
+      }
+    ]
+  },
+  "legends": {
+    "title": "Tarih, Efsaneler ve Hikayeler",
+    "subtitle": "Taşların ardındaki hikayeler: Kourion nasıl kuruldu, adlandırıldı ve kayboldu.",
+    "note": "Bu anlatılar, antik geleneği modern arkeolojinin bulgularıyla birleştirir.",
+    "badge": {
+      "legend": "Efsane",
+      "history": "Kayıtlı Tarih"
+    },
+    "items": [
+      {
+        "kind": "legend",
+        "name": "Kuruluş Efsanesi",
+        "content": "Geleneğe göre Kourion, Mora Yarımadası'ndaki Argos'tan gelen Yunan yerleşimciler tarafından kurulmuştur. Arkeoloji bu hikayeyi özünde doğrular: Miken Yunanlıları, adanın en eski Yunan yerleşimlerinden birini yaklaşık M.Ö. 13. yüzyılda burada kurmuş ve Kourion'u Kıbrıs'ta Helen kültürünün kapısı haline getirmiştir."
+      },
+      {
+        "kind": "history",
+        "name": "Nehirden Gelen Bir İsim",
+        "content": "Şehir adını büyük olasılıkla, aşağıdaki vadiyi hâlâ besleyen yakındaki Kouris Nehri'nden almıştır. Birçok antik Kıbrıs şehri gibi, Kourion'un kimliği de manzarasına ve sularına bağlıydı."
+      },
+      {
+        "kind": "legend",
+        "name": "Tiyatro ve Gladyatörler",
+        "content": "M.S. 3. yüzyılın başlarında tiyatro, gladyatör dövüşleri ve vahşi hayvan gösterileri için bir arenaya dönüştürüldü. Bu gösteriler yüzyılın sonuna doğru azalınca, yapı asıl amacı olan drama ve müzik mekânına geri döndü — antik bir sahne için nadir görülen ikinci bir hayat."
+      },
+      {
+        "kind": "history",
+        "name": "M.S. 365 Büyük Depremi",
+        "content": "M.S. 365 yılının 21 Temmuz'unda, Akdeniz tarihinin en güçlü depremlerinden biri Kıbrıs'ın güney kıyısını harap etti. Kourion büyük ölçüde yıkıldı ve Aşil Evi gibi zengin villalar çöktü. İronik bir şekilde, enkaz onların zarif mozaik zeminlerini koruyarak arkeologların 20. yüzyılda keşfetmesine olanak sağladı."
+      },
+      {
+        "kind": "history",
+        "name": "Aşil Evi'nin Mozaikleri",
+        "content": "1938'den itibaren Pennsylvania Üniversitesi tarafından kazılan Aşil Evi, adını deniz perisi Thetis'in bebek Aşil'i yıkadığı çarpıcı bir mozaik panodan alır — Yunan mitinden, Kıbrıs arkeolojisinin en ünlü sanat eserlerinden biri haline gelen nadir ve canlı renkli bir sahne."
+      },
+      {
+        "kind": "history",
+        "name": "Yeniden Keşif ve Restorasyon",
+        "content": "Yüzyıllarca harabe kaldıktan sonra tiyatro, 1933'ten itibaren Pennsylvania Üniversitesi, ardından diğer misyonlar ve Kıbrıs Eski Eserler Dairesi tarafından kazıldı. Özenle restore edilen yapı, bugün her yaz konserlere ve tiyatro oyunlarına ev sahipliği yaparak antik sahneyi yeniden hayata döndürüyor."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Kaynaklar ve İleri Okuma",
+    "subtitle": "Bu sayfa bağımsız, ticari olmayan bir eğitim rehberidir. Temel başvuru kaynakları:",
+    "items": [
+      {
+        "name": "Kıbrıs Eski Eserler Dairesi (resmi)",
+        "url": "https://www.mcw.gov.cy/da"
+      },
+      {
+        "name": "Visit Cyprus — Kourion Arkeolojik Alanı",
+        "url": "https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
+      },
+      {
+        "name": "Visit Cyprus — Resmi Turizm Portalı",
+        "url": "https://www.visitcyprus.com/"
+      },
+      {
+        "name": "Visit Limassol — Limasol Resmi Turizm",
+        "url": "https://www.visitlimassol.com/"
+      },
+      {
+        "name": "Wikipedia — Kourion",
+        "url": "https://en.wikipedia.org/wiki/Kourion"
+      }
+    ],
+    "disclaimer": "Açılış saatleri, ücretler ve tesisler habersiz değişebilir. Ziyaretinizden önce resmi kaynaklarla teyit edin."
+  },
+  "nearby": {
+    "title": "Kourion Çevresindeki Simge Yapılar ve Gezilecek Yerler",
+    "overview": "Kourion Antik Tiyatrosu'nu ziyaret ederken, Apollon Hylates Tapınağı ve Eustolios Evi dahil çevredeki tarihi simge yapıları ve ilgi çekici noktaları kolayca keşfedebilirsiniz.",
+    "items": [
+      {
+        "name": "Apollon Hylates Tapınağı",
+        "description": "Kourion krallığının en önemli tapınağı olup orman tanrısı Apollon Hylates'e adanmıştır. Tapınak, hamamlar ve hac yolları tiyatronun yaklaşık 2,5 km batısındadır."
+      },
+      {
+        "name": "Eustolios Evi",
+        "description": "Kourion alanı içinde, neredeyse sağlam kalan muhteşem mozaik zeminleriyle ünlü lüks bir Geç Roma villası."
+      },
+      {
+        "name": "Kourion Roma Hamamları",
+        "description": "Caldarium, tepidarium ve frigidarium odalarıyla iyi korunmuş halk hamamı kompleksi; Roma mühendisliğinin antik kente nasıl hizmet ettiğini gösterir."
+      },
+      {
+        "name": "Erken Hristiyan Bazilikası",
+        "description": "Tiyatronun üzerindeki akropolis platosunda, mozaik zeminli 5. yüzyıldan kalma büyük üç nefli bir bazilikanın kalıntıları."
+      },
+      {
+        "name": "Kourion Plajı (Curium Beach)",
+        "description": "Kourion kayalıklarının eteğindeki uzun, kumlu Mavi Bayraklı plaj; arkeolojik alanı keşfettikten sonra dinlenmek için ideal."
+      },
+      {
+        "name": "Episkopi Köyü",
+        "description": "Alanın altındaki yerel köy; geleneksel Kıbrıs tavernaları, Episkopi köy müzesi ve antik akropolise uzanan manzaralar sunar."
+      }
+    ]
+  },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
     "items": [
@@ -84,7 +225,60 @@
       {
         "question": "Site tekerlekli sandalye kullanıcıları için erişilebilir mi?",
         "answer": "Tiyatroya giden ana yol kısmen erişilebilir, ancak antik taş basamaklar ve engebeli arazi zorlayıcı olabilir."
+      },
+      {
+        "question": "Sitede fotoğraf çekebilir veya drone uçurabilir miyim?",
+        "answer": "Kişisel fotoğrafçılık genellikle özel kullanım için serbesttir. Drone ve ticari çekimler, Kıbrıs Eski Eserler Dairesi'nden önceden izin gerektirir."
+      },
+      {
+        "question": "Yiyecek getirebilir veya piknik yapabilir miyim?",
+        "answer": "Antik kalıntıları korumak için arkeolojik sit içinde piknik yapılmasına izin verilmez. Episkopi köyünde ve Kourion Plajı boyunca tavernalar ve kafeler bulunur."
+      },
+      {
+        "question": "Yazın ne kadar sıcak olur ve nasıl hazırlanmalıyım?",
+        "answer": "Temmuz ve Ağustos'ta gündüz sıcaklıkları yoğun güneş ışığıyla birlikte sık sık 35°C'yi aşar. Sabah erken veya öğleden sonra geç saatlerde ziyaret edin; su ve güneş koruması getirin."
+      },
+      {
+        "question": "Site en çok ne zaman kalabalık olur ve kalabalıktan nasıl kaçınırım?",
+        "answer": "Tur grupları genellikle saat 10:00'dan sonra gelir. Açılış saatinde (8:30) veya öğleden sonra geç saatlerde gelmek çok daha sakin bir deneyim sunar."
+      },
+      {
+        "question": "Girişte hangi olanaklar mevcut?",
+        "answer": "Girişte tuvaletler, bilet gişesi, küçük bir hediyelik eşya dükkanı ve otopark bulunur. Ayrıntılar için Ziyaretçi Tesisleri bölümüne bakın."
+      },
+      {
+        "question": "Tiyatrodaki gösterilerin programını nerede bulabilirim?",
+        "answer": "Yaz aylarında tiyatroda antik Yunan dramaları, konserler ve dans gösterileri düzenlenir. Program organizatörler tarafından duyurulur — ziyaretinizi planlamadan önce resmi duyuruları kontrol edin."
       }
+    ]
+  },
+  "season": {
+    "title": "Yaz Etkinlikleri ve Gösteri Sezonu",
+    "subtitle": "Her yıl Haziran'dan Eylül'e kadar antik tiyatro, sıcak yaz akşamlarında yeniden hayat bulur.",
+    "note": "Kesin program organizatörler tarafından duyurulur. Bu bağımsız rehber hiçbir kuruluşu temsil etmez ve bilet satmaz.",
+    "months": [
+      {
+        "month": "Haziran",
+        "description": "Sezon, güneş denizin üzerinde batarken antik tiyatroda sahnelenen klasik Yunan dramalarıyla açılır."
+      },
+      {
+        "month": "Temmuz",
+        "description": "Sezonun zirvesi: trajediler ve komediler, geleneksel müzik ve dans geceleri sıcak yaz akşamlarını doldurur."
+      },
+      {
+        "month": "Ağustos",
+        "description": "Konserler, resitaller ve halk gösterileri devam eder; dolunay antik sahneyi sık sık aydınlatır."
+      },
+      {
+        "month": "Eylül",
+        "description": "Sezon, serin aylardan önce son tiyatro ve müzik etkinlikleriyle yavaşça sona erer."
+      }
+    ],
+    "tipsTitle": "Pratik Notlar",
+    "tips": [
+      "Gösteriler genellikle gün batımından sonra akşam başlar — tiyatroyu gün ışığında görmek için erken gelin.",
+      "Temmuz ve Ağustos'ta biletler sık sık tükenir; önceden rezervasyon yaptırın.",
+      "Kesin program organizatörler tarafından duyurulur — ziyaretinizi planlamadan önce resmi programı teyit edin."
     ]
   },
   "basicInfo": {
@@ -98,9 +292,13 @@
     "city": "Şehir",
     "cityValue": "Limasol (Lemesos)",
     "googleRating": "Google Değerlendirmesi",
-    "googleRatingValue": "4.7 (6.274)",
+    "googleRatingValue": "4.7 (6.433)",
     "address": "Adres",
-    "addressValue": "MV7Q+P49, Episkopi Lemesou 4620, Kıbrıs",
+    "addressValue": "MV7Q+P49, Episkopi, Ağrotur ve Dikelya 4620, Kıbrıs",
+    "telephone": "İletişim Telefonu",
+    "telephoneValue": "+357 25 934 250",
+    "accessibility": "Erişilebilirlik",
+    "accessibilityValue": "Kısmen erişilebilir",
     "plusCode": "Plus Kodu",
     "plusCodeValue": "MV7Q+P49"
   },
@@ -125,7 +323,7 @@
     "guidedPrice": "Eski Eserler Dairesi aracılığıyla mevcut"
   },
   "transport": {
-    "title": "Buraya Nasıl Gidilir",
+    "title": "Konum ve Episkopi'de Kourion Nasıl Ziyaret Edilir",
     "fromCenter": "Limasol Merkezinden",
     "fromCenterDesc": "Limasol'un batısına yaklaşık 19 km. Araç veya otobüs önerilir.",
     "fromStation": "Toplu Taşıma İle",
@@ -158,7 +356,6 @@
       "Deniz manzaralı oturma alanı",
       "Antik taş koltuklar",
       "Sahne ve orkestra alanı",
-      "Panoramik Akdeniz manzarası",
       "Altın güneş ışığında tiyatro",
       "Antik mimari detaylar",
       "Cavea ve sahne arka planı",
@@ -173,8 +370,7 @@
       "Antik duvarcılık detayları",
       "Tiyatro ve manzara",
       "Koltuklardan sahne manzarası",
-      "Antik taşlar ve gökyüzü",
-      "Gün batımında tiyatro"
+      "Antik taşlar ve gökyüzü"
     ],
     "viewAll": "Google Maps'te Görüntüle",
     "showAll": "Tüm Fotoğrafları Görüntüle",
@@ -225,12 +421,14 @@
   },
   "mapSection": {
     "title": "Harita Konumu",
-    "subtitle": "MV7Q+P49, Episkopi Lemesou 4620, Kıbrıs",
-    "openMaps": "Google Maps'te Görüntüle"
+    "subtitle": "MV7Q+P49, Episkopi, Ağrotur ve Dikelya 4620, Kıbrıs",
+    "openMaps": "Google Maps'te Görüntüle",
+    "officialPortal": "Resmi güncellemeler ve bölgesel turizm bilgileri için ziyaret edin",
+    "portalName": "Kıbrıs Resmi Turizm Portalı (Visit Cyprus)"
   },
   "footer": {
     "brandName": "Kourion Antik Tiyatrosu",
-    "brandSubtitle": "Tarihi Simge · Limasol, Kıbrıs",
+    "brandSubtitle": "Tarihi Simge · Episkopi, Limasol, Kıbrıs",
     "rights": "© 2026 Bağımsız Turizm Araştırma Projesi · Tüm Hakları Saklıdır.",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
@@ -243,7 +441,8 @@
       "kourionOrg": "Kourion Belediyesi",
       "europeana": "Europeana Kıbrıs Eski Eserleri"
     },
-    "disclaimer": "Bu web sitesi bağımsız bir üçüncü taraf turizm bilgi projesidir. Yerel hükümet veya diğer resmi kurumlarla ilişkili değiliz."
+    "disclaimer": "Bu web sitesi bağımsız bir üçüncü taraf turizm bilgi projesidir. Yerel hükümet veya diğer resmi kurumlarla ilişkili değiliz.",
+    "lastUpdated": "İçerik son güncelleme: Ağustos 2026."
   },
   "officialManagement": {
     "title": "Kourion Antik Tiyatrosu Hakkında",

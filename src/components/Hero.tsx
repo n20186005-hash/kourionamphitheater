@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/kourion-ancient-amphitheater-1.jpg"
-          alt="Kourion Ancient Amphitheater"
+          alt="Kourion Ancient Amphitheater - Main view in Episkopi, Cyprus"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

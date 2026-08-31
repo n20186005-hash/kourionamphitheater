@@ -1,27 +1,32 @@
 {
   "meta": {
-    "title": "Kourion Ancient Amphitheater – Limassol, Cyprus",
-    "description": "Complete travel guide to Kourion Ancient Amphitheater in Limassol. Learn about this historic landmark, including location, views, access, and visitor information."
+    "title": "Kourion Ancient Amphitheater (Episkopi) - Visitor Guide & Location",
+    "description": "Discover Kourion Ancient Amphitheater, the iconic landmark in Episkopi, Limassol District, Cyprus. View location map, opening details, nearby Sanctuary of Apollo Hylates, and travel tips."
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
+    "legends": "History & Legends",
+    "facilities": "Facilities",
     "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Kourion Ancient Amphitheater",
-    "subtitle": "Historic Landmark · Limassol, Cyprus",
+    "title": "Kourion Ancient Amphitheater (Episkopi)",
+    "subtitle": "Historic Landmark · Episkopi, Limassol, Cyprus",
     "rating": "4.7",
-    "reviewCount": "6,274 reviews",
+    "reviewCount": "6,433 reviews",
     "type": "Ancient Monument",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
   },
   "intro": {
     "title": "Discover Kourion Ancient Amphitheater",
+    "entityDeclaration": "Welcome to Kourion Ancient Amphitheater, widely recognized as the central Kourion. Located in the heart of Episkopi, Limassol District, Cyprus, this destination serves as a primary hub for travelers visiting the region.",
     "description": "The Ancient Theater of Kourion is one of the most impressive archaeological sites in Cyprus. Built in the 2nd century BC and expanded during Roman times, it offers breathtaking views of the Mediterranean Sea. Today, it continues to host cultural performances and concerts.",
+    "breadcrumb": "Kourion Ancient Amphitheater → Episkopi → Limassol District → Cyprus",
+    "nearbyCluster": "When visiting Kourion Ancient Amphitheater, visitors can easily explore surrounding historical landmarks and points of interest, including the Sanctuary of Apollo Hylates and the House of Eustolios.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -66,6 +71,142 @@
       }
     ]
   },
+  "facilities": {
+    "title": "Visitor Facilities & Amenities",
+    "overview": "The following facilities are available at or near the site. As an independent, non-commercial guide, we describe only facility types — no specific businesses are recommended.",
+    "items": [
+      {
+        "name": "Public Toilets",
+        "description": "Restroom facilities are located at the archaeological site entrance. Availability may vary by season."
+      },
+      {
+        "name": "Parking",
+        "description": "Free parking is available near the site entrance. On busy summer days, arrive early."
+      },
+      {
+        "name": "Dining",
+        "description": "Traditional Cypriot tavernas, cafes, bakeries and light-dining options are found in Episkopi village and along the Kourion Beach road."
+      },
+      {
+        "name": "Accommodation",
+        "description": "Hotels, guesthouses, holiday apartments and seaside resorts are available in Limassol city and surrounding villages, a short drive away."
+      },
+      {
+        "name": "Shops & Supermarkets",
+        "description": "Supermarkets, minimarkets and convenience stores operate in Episkopi village and nearby towns for food, drinks and essentials."
+      },
+      {
+        "name": "Fuel & Charging",
+        "description": "Petrol stations are located along the B6 coastal road. Electric-vehicle charging points are available in Limassol and larger towns."
+      },
+      {
+        "name": "Water & Shade",
+        "description": "The site is open and exposed; bring drinking water and sun protection, especially between June and September."
+      },
+      {
+        "name": "Accessibility",
+        "description": "The main route to the theater is partially accessible. Ancient stone steps and uneven ground limit full wheelchair access."
+      }
+    ]
+  },
+  "legends": {
+    "title": "History, Legends & Stories",
+    "subtitle": "The stories behind the stones: how Kourion was founded, named, and lost.",
+    "note": "These accounts combine ancient tradition with the findings of modern archaeology.",
+    "badge": {
+      "legend": "Legend",
+      "history": "Recorded History"
+    },
+    "items": [
+      {
+        "kind": "legend",
+        "name": "The Founding Legend",
+        "content": "Tradition holds that Kourion was founded by Greek settlers from Argos in the Peloponnese. Archaeology supports the story in essence: Mycenaean Greeks established one of the island's earliest Greek settlements here around the 13th century BC, making Kourion a gateway of Hellenic culture in Cyprus."
+      },
+      {
+        "kind": "history",
+        "name": "A Name from the River",
+        "content": "The city most likely took its name from the nearby Kouris River, which still waters the valley below. Like many ancient Cypriot cities, Kourion's identity was bound to its landscape and waterways."
+      },
+      {
+        "kind": "legend",
+        "name": "The Theater and the Gladiators",
+        "content": "In the early 3rd century AD, the theater was converted into an arena for gladiatorial combat and wild-beast shows. When these games declined toward the end of the century, the building returned to its original purpose as a venue for drama and music — a rare second life for an ancient stage."
+      },
+      {
+        "kind": "history",
+        "name": "The Great Earthquake of AD 365",
+        "content": "On 21 July AD 365, one of the most powerful earthquakes in Mediterranean history devastated the southern coast of Cyprus. Kourion was largely destroyed, and wealthy villas such as the House of Achilles collapsed. Ironically, the rubble sealed their exquisite floor mosaics, preserving them until archaeologists uncovered them in the 20th century."
+      },
+      {
+        "kind": "history",
+        "name": "The Mosaics of the House of Achilles",
+        "content": "Excavated from 1938 by the University of Pennsylvania, the House of Achilles takes its name from a striking mosaic panel showing the sea-nymph Thetis bathing the infant Achilles — a rare and vividly colored scene from Greek myth that became one of the most celebrated artworks of Cypriot archaeology."
+      },
+      {
+        "kind": "history",
+        "name": "Rediscovery and Restoration",
+        "content": "After centuries of ruin, the theater was excavated from 1933 onward by the University of Pennsylvania and later by other missions and the Cypriot Department of Antiquities. Carefully restored, it now hosts concerts and drama every summer, bringing the ancient stage back to life."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & Further Reading",
+    "subtitle": "This page is an independent, non-commercial educational guide. Main reference materials:",
+    "items": [
+      {
+        "name": "Department of Antiquities of Cyprus (official)",
+        "url": "https://www.mcw.gov.cy/da"
+      },
+      {
+        "name": "Visit Cyprus — Kourion Archaeological Site",
+        "url": "https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site"
+      },
+      {
+        "name": "Visit Cyprus — Official Tourism Portal",
+        "url": "https://www.visitcyprus.com/"
+      },
+      {
+        "name": "Visit Limassol — Official Tourism Board",
+        "url": "https://www.visitlimassol.com/"
+      },
+      {
+        "name": "Wikipedia — Kourion",
+        "url": "https://en.wikipedia.org/wiki/Kourion"
+      }
+    ],
+    "disclaimer": "Opening hours, fees and facilities may change without notice. Please confirm with official sources before your visit."
+  },
+  "nearby": {
+    "title": "Landmarks & Attractions Around Kourion",
+    "overview": "When visiting Kourion Ancient Amphitheater, visitors can easily explore surrounding historical landmarks and points of interest, including the Sanctuary of Apollo Hylates and the House of Eustolios.",
+    "items": [
+      {
+        "name": "Sanctuary of Apollo Hylates",
+        "description": "The most important sanctuary in the Kourion kingdom, dedicated to Apollo Hylates, the god of the woodland. Its temple, baths, and pilgrimage paths lie about 2.5 km west of the theater."
+      },
+      {
+        "name": "House of Eustolios",
+        "description": "A lavish Late Roman villa inside the Kourion site, famous for its exquisite floor mosaics that survive almost intact, with a central inscription welcoming visitors."
+      },
+      {
+        "name": "Roman Baths of Kourion",
+        "description": "Well-preserved public bathing complex with caldarium, tepidarium and frigidarium rooms, showing how Roman engineering served the ancient city."
+      },
+      {
+        "name": "Early Christian Basilica",
+        "description": "The remains of a large 5th-century three-aisled basilica with mosaic floors, located on the acropolis plateau above the theater."
+      },
+      {
+        "name": "Kourion Beach (Curium Beach)",
+        "description": "A long, sandy Blue-Flag beach at the foot of the Kourion cliffs, a perfect spot to relax after exploring the archaeological site."
+      },
+      {
+        "name": "Episkopi Village",
+        "description": "The local village below the site, with traditional Cypriot tavernas, the Episkopi village museum, and views up to the ancient acropolis."
+      }
+    ]
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "items": [
@@ -84,7 +225,60 @@
       {
         "question": "Is the site accessible for wheelchair users?",
         "answer": "The main path to the theater is partially accessible, but the ancient stone steps and uneven terrain may be challenging. Contact the site in advance for assistance."
+      },
+      {
+        "question": "Can I take photos or fly a drone at the site?",
+        "answer": "Personal photography is generally allowed for private use. Drones and commercial filming require prior permission from the Department of Antiquities of Cyprus."
+      },
+      {
+        "question": "Can I bring food or have a picnic?",
+        "answer": "To protect the ancient remains, picnicking inside the archaeological site is not permitted. Tavernas and cafes are available in Episkopi village and along Kourion Beach."
+      },
+      {
+        "question": "How hot does it get in summer, and how should I prepare?",
+        "answer": "In July and August daytime temperatures often exceed 35°C with intense sunshine. Visit early in the morning or late afternoon, and bring water and sun protection."
+      },
+      {
+        "question": "When is the site busiest, and how can I avoid the crowds?",
+        "answer": "Tour groups typically arrive after 10:00 AM. Arriving right at opening time (8:30) or during the late afternoon gives you a much quieter experience."
+      },
+      {
+        "question": "What facilities are available at the entrance?",
+        "answer": "Toilets, a ticket office, a small gift shop and a parking area are available at the entrance. See the Facilities section for details."
+      },
+      {
+        "question": "Where can I find the schedule of performances at the theater?",
+        "answer": "During summer, ancient Greek drama, concerts and dance performances take place in the theater. The program is announced by the organizing bodies — check official announcements before planning your visit."
       }
+    ]
+  },
+  "season": {
+    "title": "Summer Events & Performance Season",
+    "subtitle": "Every year from June to September, the ancient theater comes alive on warm summer evenings.",
+    "note": "The exact program is announced by the organizing bodies. This independent guide represents no organization and sells no tickets.",
+    "months": [
+      {
+        "month": "June",
+        "description": "The season opens with classical Greek drama performed in the ancient theater as the sun sets over the sea."
+      },
+      {
+        "month": "July",
+        "description": "Peak season: Greek tragedies and comedies, traditional music and dance evenings fill the warm summer nights."
+      },
+      {
+        "month": "August",
+        "description": "Concerts, recitals and folk performances continue; the full moon often lights the ancient stage."
+      },
+      {
+        "month": "September",
+        "description": "The season winds down with final drama performances and music events before the cooler months."
+      }
+    ],
+    "tipsTitle": "Practical Notes",
+    "tips": [
+      "Performances usually begin in the evening after sunset — arrive early to enjoy the theater in daylight.",
+      "Tickets often sell out in July and August; book in advance.",
+      "The exact program is announced by the organizing bodies — always confirm the official schedule before planning your visit."
     ]
   },
   "basicInfo": {
@@ -98,9 +292,9 @@
     "city": "City",
     "cityValue": "Limassol (Lemesos)",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.7 (6,274)",
+    "googleRatingValue": "4.7 (6,433)",
     "address": "Address",
-    "addressValue": "Kourion, 19 km west of Limassol, on the road to Paphos",
+    "addressValue": "MV7Q+P49, Episkopi, Akrotiri and Dhekelia 4620, Cyprus",
     "telephone": "Contact Phone",
     "telephoneValue": "+357 25 934 250",
     "accessibility": "Accessibility",
@@ -129,7 +323,7 @@
     "guidedPrice": "Available through Department of Antiquities"
   },
   "transport": {
-    "title": "How to Get Here",
+    "title": "Location & How to Visit Kourion in Episkopi",
     "fromCenter": "From Limassol Center",
     "fromCenterDesc": "Distance about 19km west of Limassol. Car or bus recommended.",
     "fromStation": "By Public Transport",
@@ -162,7 +356,6 @@
       "Seating area with sea view",
       "Ancient stone seats",
       "Stage and orchestra area",
-      "Panoramic Mediterranean view",
       "Theater in golden sunlight",
       "Ancient architectural details",
       "Cavea and scenic background",
@@ -177,8 +370,7 @@
       "Ancient masonry details",
       "Theater and landscape",
       "Scenic view from seats",
-      "Ancient stones and sky",
-      "Theater at sunset"
+      "Ancient stones and sky"
     ],
     "viewAll": "View on Google Maps",
     "showAll": "View All Photos",
@@ -229,12 +421,14 @@
   },
   "mapSection": {
     "title": "Map Location",
-    "subtitle": "MV7Q+P49, Episkopi Lemesou 4620, Cyprus",
-    "openMaps": "View on Google Maps"
+    "subtitle": "MV7Q+P49, Episkopi, Akrotiri and Dhekelia 4620, Cyprus",
+    "openMaps": "View on Google Maps",
+    "officialPortal": "For official updates and regional tourism information, visit",
+    "portalName": "Cyprus Official Tourism Portal (Visit Cyprus)"
   },
   "footer": {
     "brandName": "Kourion Ancient Amphitheater",
-    "brandSubtitle": "Historic Landmark · Limassol, Cyprus",
+    "brandSubtitle": "Historic Landmark · Episkopi, Limassol, Cyprus",
     "rights": "© 2026 Independent Tourism Research Project · All Rights Reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
@@ -247,7 +441,8 @@
       "kourionOrg": "Kourion Municipality",
       "europeana": "Europeana Cyprus Antiquities"
     },
-    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies."
+    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies.",
+    "lastUpdated": "Content last updated: August 2026."
   },
   "officialManagement": {
     "title": "About Kourion Ancient Amphitheater",

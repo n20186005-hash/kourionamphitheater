@@ -19,10 +19,35 @@ export default function Intro() {
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p
-          className="text-lg leading-relaxed mb-12"
+          className="text-lg leading-relaxed mb-6"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {t('entityDeclaration')}
+        </p>
+
+        <p
+          className="text-lg leading-relaxed mb-6"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}
+        </p>
+
+        <p
+          className="inline-block text-sm font-medium px-3 py-1.5 rounded-full mb-6"
+          style={{
+            background: 'var(--bg-tertiary)',
+            color: 'var(--text-secondary)',
+            border: '1px solid var(--border-color)',
+          }}
+        >
+          {t('breadcrumb')}
+        </p>
+
+        <p
+          className="text-lg leading-relaxed mb-12"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {t('nearbyCluster')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
