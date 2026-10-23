@@ -12,11 +12,18 @@
     "map": "Harita",
     "backToHome": "Ana Sayfaya Dön"
   },
+  "quickLinks": {
+    "title": "Hızlı bağlantılar",
+    "hours": "Çalışma Saatleri",
+    "tickets": "Biletler",
+    "navigation": "Yol Tarifi",
+    "route": "Rota"
+  },
   "hero": {
     "title": "Kourion Antik Tiyatrosu (Episkopi)",
     "subtitle": "Tarihi Simge · Episkopi, Limasol, Kıbrıs",
     "rating": "4.7",
-    "reviewCount": "6.433 yorum",
+    "reviewCount": "6.527 yorum",
     "type": "Antik Anıt",
     "openMaps": "Google Maps'te Görüntüle",
     "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
@@ -25,6 +32,7 @@
     "title": "Kourion Antik Tiyatrosu'nu Keşfedin",
     "entityDeclaration": "Kourion Antik Tiyatrosu'na hoş geldiniz; yaygın olarak merkez Kourion olarak tanınır. Kıbrıs'ın Limasol bölgesindeki Episkopi'nin kalbinde yer alan bu destinasyon, bölgeyi ziyaret eden gezginler için ana bir merkezdir.",
     "description": "Kourion Antik Tiyatrosu, Kıbrıs'ın en etkileyici arkeolojik sitelerinden biridir. M.Ö. 2. yüzyılda inşa edilmiş ve Roma döneminde genişletilmiş olup, Akdeniz'in nefes kesen manzaralarını sunar.",
+    "independentNote": "Bu, bağımsız ve ticari olmayan bir ziyaret rehberidir. Kıbrıs Antikiteleri Dairesi veya herhangi bir resmi kuruluşla ilişkili değiliz ve bilet satmıyoruz.",
     "breadcrumb": "Kourion Antik Tiyatrosu → Episkopi → Limasol Bölgesi → Kıbrıs",
     "nearbyCluster": "Kourion Antik Tiyatrosu'nu ziyaret ederken, Apollon Hylates Tapınağı ve Eustolios Evi dahil çevredeki tarihi simge yapıları ve ilgi çekici noktaları kolayca keşfedebilirsiniz.",
     "visitGuide": {
@@ -203,7 +211,7 @@
       },
       {
         "name": "Episkopi Köyü",
-        "description": "Alanın altındaki yerel köy; geleneksel Kıbrıs tavernaları, Episkopi köy müzesi ve antik akropolise uzanan manzaralar sunar."
+        "description": "Alanın altındaki yerel köy; geleneksel Kıbrıs tavernaları ve antik akropolise uzanan manzaralar sunar. Not: Episkopi'deki Kourion Yerel Arkeoloji Müzesi, 1 Ağustos 2026'dan itibaren yenileme çalışmaları nedeniyle geçici olarak kapalıdır ve yeniden açılış tarihi duyurulmamıştır — sitin kendi mozaikleri ve Apollon Hylates Tapınağı gibi alternatif duraklar planlayın."
       }
     ]
   },
@@ -292,7 +300,7 @@
     "city": "Şehir",
     "cityValue": "Limasol (Lemesos)",
     "googleRating": "Google Değerlendirmesi",
-    "googleRatingValue": "4.7 (6.433)",
+    "googleRatingValue": "4.7 (6.527)",
     "address": "Adres",
     "addressValue": "MV7Q+P49, Episkopi, Ağrotur ve Dikelya 4620, Kıbrıs",
     "telephone": "İletişim Telefonu",
@@ -311,7 +319,8 @@
     "bestTimeSummer": "Yaz: Sabah erken veya geç öğleden sonra önerilir",
     "bestTimeAutumn": "Sonbahar: Ilıman sıcaklıklar, keşfetmek için ideal",
     "bestTimeWinter": "Kış: Daha az kalabalık, berrak atmosfer",
-    "tip": "Tam bir ziyaret için 1-2 saat ayırın. Su ve güneş koruyucu getirin. Site, Noel, Yılbaşı ve Rum Ortodoks Paskalyası günlerinde kapalıdır."
+    "tip": "Tam bir ziyaret için 1-2 saat ayırın. Su ve güneş koruyucu getirin. Site, Noel, Yılbaşı ve Rum Ortodoks Paskalyası günlerinde kapalıdır.",
+    "verified": "Saatler Ekim 2026'da Visit Cyprus'a göre doğrulanmıştır."
   },
   "tickets": {
     "title": "Giriş Bilgileri",
@@ -320,18 +329,19 @@
     "parking": "Otopark",
     "parkingPrice": "Sitede ücretsiz otopark mevcut",
     "guided": "Rehberli Turlar",
-    "guidedPrice": "Eski Eserler Dairesi aracılığıyla mevcut"
+    "guidedPrice": "Eski Eserler Dairesi aracılığıyla mevcut",
+    "verified": "Bilet fiyatları ve ziyaret saatleri Ekim 2026'da Visit Cyprus'a göre doğrulanmıştır."
   },
   "transport": {
     "title": "Konum ve Episkopi'de Kourion Nasıl Ziyaret Edilir",
     "fromCenter": "Limasol Merkezinden",
     "fromCenterDesc": "Limasol'un batısına yaklaşık 19 km. Araç veya otobüs önerilir.",
     "fromStation": "Toplu Taşıma İle",
-    "fromStationDesc": "Limasol'den Episkopi'ye 16 veya 17 numaralı otobüs hattını kullanın.",
+    "fromStationDesc": "EMEL 16 numaralı otobüs Leontiou (Limasol) durağından Kourion Plajı'na, 18 numaralı hat ise My Mall'dan Kourion Plajı'na gider. Plaj durağından arkeolojik sit girişine kısa bir taksi ya da yaklaşık 2 km'lik yokuş yürüyüş gerekir — son etabı önceden planlayın.",
     "fromAirport": "Larnaka / Baf Havalimanı'ndan",
-    "fromAirportDesc": "Araç kiralayın veya taksi kullanın. Larnaka'dan yaklaşık 40 km, Baf'tan 50 km.",
+    "fromAirportDesc": "Araç kiralayın veya taksi kullanın. Larnaka Havalimanı'ndan yaklaşık 65 km, Baf Havalimanı'ndan yaklaşık 50 km (mesafeler yaklaşıktır; seyahat öncesi doğrulayın).",
     "publicTransport": "Toplu Taşıma",
-    "publicTransportDesc": "Limasol'den Episkopi köyüne 16/17 numaralı otobüs hatları.",
+    "publicTransportDesc": "EMEL 16 ve 18 numaralı hatlar, siteye en yakın durak olan Kourion Plajı'na gidar. Arkeolojik sit girişi plaj durağının iç kesiminde ve yokuş yukarıdadır.",
     "walking": "Yürüyüş",
     "walkingDesc": "Limasol merkezinden yürüme önerilmez (19 km).",
     "driving": "Araçla",
@@ -379,46 +389,9 @@
   },
   "reviews": {
     "title": "Ziyaretçi Yorumları",
-    "declaration": "Yorumlar Google Maps üzerinden görüntülenebilir.",
+    "declaration": "Genel Google puanı özetini gösteriyoruz ve tekil yorumlar için Google Maps'e bağlıyoruz. Bu sitede isimli ziyaretçi yorumları yayınlamıyoruz.",
     "moreReviews": "Google Maps'te daha fazla yorum görüntüle",
-    "items": [
-      {
-        "name": "James W.",
-        "rating": 5,
-        "date": "2026-04-10",
-        "text": "Kesinlikle büyüleyici! Tiyatrodan manzara nefes kesici. Kıbrıs'ta görülmesi gereken bir yer."
-      },
-      {
-        "name": "Sophia M.",
-        "rating": 5,
-        "date": "2026-03-22",
-        "text": "İnanılmaz antik site, şaşırtıcı akustik. Akdeniz arka planı muhteşem."
-      },
-      {
-        "name": "Andreas K.",
-        "rating": 5,
-        "date": "2026-02-15",
-        "text": "Zengin tarih ve iyi korunmuş. Tiyatro hala performanslara ev sahipliği yapıyor - büyülü atmosfer!"
-      },
-      {
-        "name": "Emma L.",
-        "rating": 4,
-        "date": "2026-01-30",
-        "text": "Güzel site, harika manzaralar. Kalabalıktan kaçınmak için sabahları ziyaret önerilir."
-      },
-      {
-        "name": "Michael R.",
-        "rating": 5,
-        "date": "2025-12-18",
-        "text": "Büyüleyici bir tarih parçası. Ses rehberi çok bilgilendiriciydi."
-      },
-      {
-        "name": "Linda T.",
-        "rating": 5,
-        "date": "2025-11-25",
-        "text": "Kıbrıs'taki en iyi arkeolojik sitelerden biri. Tiyatro dikkat çekecek şekilde korunmuş."
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Harita Konumu",
@@ -444,7 +417,7 @@
       "europeana": "Europeana Kıbrıs Eski Eserleri"
     },
     "disclaimer": "Bu web sitesi bağımsız bir üçüncü taraf turizm bilgi projesidir. Yerel hükümet veya diğer resmi kurumlarla ilişkili değiliz.",
-    "lastUpdated": "İçerik son güncelleme: Ağustos 2026."
+    "lastUpdated": "İçerik son güncelleme: Ekim 2026."
   },
   "officialManagement": {
     "title": "Kourion Antik Tiyatrosu Hakkında",

@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 
-const baseUrl = 'https://kourionamphitheater.com';
+const baseUrl = 'https://www.kourionamphitheater.com';
 const heroImage = `${baseUrl}/gallery/kourion-ancient-amphitheater-1.jpg`;
 const GA_MEASUREMENT_ID = 'G-HXM22WWPKP';
 
@@ -137,7 +137,7 @@ export default async function LocaleLayout({
               description: messages.meta.description,
               isPartOf: { '@id': `${baseUrl}/#website` },
               about: { '@id': `${baseUrl}/#attraction` },
-              dateModified: '2026-08-31',
+              dateModified: '2026-10-20',
             }),
           }}
         />

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Kourion Ancient Amphitheater (Episkopi) - Visitor Guide & Location",
+    "title": "Kourion Theatre, Cyprus | Tickets, Hours & Visitor Guide",
     "description": "Discover Kourion Ancient Amphitheater, the iconic landmark in Episkopi, Limassol District, Cyprus. View location map, opening details, nearby Sanctuary of Apollo Hylates, and travel tips."
   },
   "header": {
@@ -12,11 +12,18 @@
     "map": "Map",
     "backToHome": "Back to Home"
   },
+  "quickLinks": {
+    "title": "Quick links",
+    "hours": "Opening Hours",
+    "tickets": "Tickets",
+    "navigation": "Directions",
+    "route": "Site Route"
+  },
   "hero": {
     "title": "Kourion Ancient Amphitheater (Episkopi)",
     "subtitle": "Historic Landmark · Episkopi, Limassol, Cyprus",
     "rating": "4.7",
-    "reviewCount": "6,433 reviews",
+    "reviewCount": "6,527 reviews",
     "type": "Ancient Monument",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
@@ -25,6 +32,7 @@
     "title": "Discover Kourion Ancient Amphitheater",
     "entityDeclaration": "Welcome to Kourion Ancient Amphitheater, widely recognized as the central Kourion. Located in the heart of Episkopi, Limassol District, Cyprus, this destination serves as a primary hub for travelers visiting the region.",
     "description": "The Ancient Theater of Kourion is one of the most impressive archaeological sites in Cyprus. Built in the 2nd century BC and expanded during Roman times, it offers breathtaking views of the Mediterranean Sea. Today, it continues to host cultural performances and concerts.",
+    "independentNote": "This is an independent, non-commercial visitor guide. We are not affiliated with the Department of Antiquities of Cyprus or any official body, and we do not sell tickets.",
     "breadcrumb": "Kourion Ancient Amphitheater → Episkopi → Limassol District → Cyprus",
     "nearbyCluster": "When visiting Kourion Ancient Amphitheater, visitors can easily explore surrounding historical landmarks and points of interest, including the Sanctuary of Apollo Hylates and the House of Eustolios.",
     "visitGuide": {
@@ -203,7 +211,7 @@
       },
       {
         "name": "Episkopi Village",
-        "description": "The local village below the site, with traditional Cypriot tavernas, the Episkopi village museum, and views up to the ancient acropolis."
+        "description": "The local village below the site, with traditional Cypriot tavernas and views up to the ancient acropolis. Note: the Local Archaeological Museum of Kourion in Episkopi has been temporarily closed since 1 August 2026 for upgrade works, with no reopening date announced — plan alternative stops such as the site's own mosaics and the Sanctuary of Apollo Hylates."
       }
     ]
   },
@@ -259,19 +267,19 @@
     "months": [
       {
         "month": "June",
-        "description": "The season opens with classical Greek drama performed in the ancient theater as the sun sets over the sea."
+        "description": "In recent seasons the program has opened with classical Greek drama in the ancient theater at sunset. The precise lineup is announced by the organizing bodies each year."
       },
       {
         "month": "July",
-        "description": "Peak season: Greek tragedies and comedies, traditional music and dance evenings fill the warm summer nights."
+        "description": "Typically the busiest month, with Greek tragedies and comedies and traditional music and dance evenings. Confirm the confirmed schedule via official announcements."
       },
       {
         "month": "August",
-        "description": "Concerts, recitals and folk performances continue; the full moon often lights the ancient stage."
+        "description": "Concerts, recitals and folk performances have traditionally continued through August. Program details are published by the organizers."
       },
       {
         "month": "September",
-        "description": "The season winds down with final drama performances and music events before the cooler months."
+        "description": "Recent seasons have closed with final drama and music events before the cooler months. Confirm the current year's dates with official sources."
       }
     ],
     "tipsTitle": "Practical Notes",
@@ -292,7 +300,7 @@
     "city": "City",
     "cityValue": "Limassol (Lemesos)",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.7 (6,433)",
+    "googleRatingValue": "4.7 (6,527)",
     "address": "Address",
     "addressValue": "MV7Q+P49, Episkopi, Akrotiri and Dhekelia 4620, Cyprus",
     "telephone": "Contact Phone",
@@ -311,7 +319,8 @@
     "bestTimeSummer": "Summer: Early morning or late afternoon recommended",
     "bestTimeAutumn": "Autumn: Mild temperatures, ideal for exploring",
     "bestTimeWinter": "Winter: Fewer crowds, clear atmosphere",
-    "tip": "Allow 1-2 hours for a full visit. Bring water and sun protection. The site is closed on Christmas, New Year's Day and Greek Orthodox Easter."
+    "tip": "Allow 1-2 hours for a full visit. Bring water and sun protection. The site is closed on Christmas, New Year's Day and Greek Orthodox Easter.",
+    "verified": "Hours verified against Visit Cyprus in October 2026."
   },
   "tickets": {
     "title": "Admission Information",
@@ -320,18 +329,19 @@
     "parking": "Parking",
     "parkingPrice": "Free parking available on-site",
     "guided": "Guided Tours",
-    "guidedPrice": "Available through Department of Antiquities"
+    "guidedPrice": "Available through Department of Antiquities",
+    "verified": "Admission prices and hours checked against Visit Cyprus in October 2026."
   },
   "transport": {
     "title": "Location & How to Visit Kourion in Episkopi",
     "fromCenter": "From Limassol Center",
     "fromCenterDesc": "Distance about 19km west of Limassol. Car or bus recommended.",
     "fromStation": "By Public Transport",
-    "fromStationDesc": "Take bus route 16 or 17 from Limassol to Episkopi.",
-    "fromAirport": "From Paphos/Larnaca Airport",
-    "fromAirportDesc": "Rent a car or take a taxi. About 40km from Larnaca, 50km from Paphos.",
+    "fromStationDesc": "EMEL bus 16 runs from Leontiou (Limassol) to Kourion Beach; bus 18 runs from My Mall to Kourion Beach. From the beach stop it is a short taxi ride or about a 2 km uphill walk to the archaeological site entrance — arrange the last leg in advance.",
+    "fromAirport": "From Paphos / Larnaca Airport",
+    "fromAirportDesc": "Rent a car or take a taxi. About 65 km from Larnaca Airport, about 50 km from Paphos Airport (distances approximate; reconfirm before travel).",
     "publicTransport": "Public Transport",
-    "publicTransportDesc": "Bus routes 16/17 from Limassol to Episkopi village.",
+    "publicTransportDesc": "EMEL routes 16 and 18 serve Kourion Beach, the closest bus stop to the site. The archaeological site entrance sits inland and uphill from the beach stop.",
     "walking": "Walking",
     "walkingDesc": "Not recommended from Limassol center (19km).",
     "driving": "Driving",
@@ -379,46 +389,9 @@
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Reviews can be viewed via Google Maps.",
+    "declaration": "We show the overall Google rating snapshot and link to Google Maps for individual reviews. We do not publish attributed visitor reviews on this site.",
     "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "James W.",
-        "rating": 5,
-        "date": "2026-04-10",
-        "text": "Absolutely stunning! The view from the theater is breathtaking. A must-visit in Cyprus."
-      },
-      {
-        "name": "Sophia M.",
-        "rating": 5,
-        "date": "2026-03-22",
-        "text": "Incredible ancient site with amazing acoustics. The Mediterranean backdrop is spectacular."
-      },
-      {
-        "name": "Andreas K.",
-        "rating": 5,
-        "date": "2026-02-15",
-        "text": "Rich history and well-preserved. The theater still hosts performances - magical atmosphere!"
-      },
-      {
-        "name": "Emma L.",
-        "rating": 4,
-        "date": "2026-01-30",
-        "text": "Beautiful site with great views. Recommend visiting in the morning to avoid crowds."
-      },
-      {
-        "name": "Michael R.",
-        "rating": 5,
-        "date": "2025-12-18",
-        "text": "Fascinating piece of history. The audio guide was very informative."
-      },
-      {
-        "name": "Linda T.",
-        "rating": 5,
-        "date": "2025-11-25",
-        "text": "One of the best archaeological sites in Cyprus. The theater is remarkably preserved."
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Map Location",
@@ -444,7 +417,7 @@
       "europeana": "Europeana Cyprus Antiquities"
     },
     "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies.",
-    "lastUpdated": "Content last updated: August 2026."
+    "lastUpdated": "Content last updated: October 2026."
   },
   "officialManagement": {
     "title": "About Kourion Ancient Amphitheater",

@@ -34,6 +34,9 @@ export default function HoursSection() {
           </svg>
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('tip')}</p>
         </div>
+        {t.has('verified') && (
+          <p className="mt-3 text-xs" style={{ color: 'var(--text-secondary)' }}>{t('verified')}</p>
+        )}
       </div>
     </section>
   );

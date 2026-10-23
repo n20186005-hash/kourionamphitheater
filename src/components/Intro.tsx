@@ -31,6 +31,11 @@ export default function Intro() {
         >
           {t('description')}
         </p>
+        {t.has('independentNote') && (
+          <p className="mb-6 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm" style={{ color: '#7c4a03' }}>
+            {t('independentNote')}
+          </p>
+        )}
 
         <p
           className="inline-block text-sm font-medium px-3 py-1.5 rounded-full mb-6"

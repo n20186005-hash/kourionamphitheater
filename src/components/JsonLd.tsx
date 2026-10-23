@@ -1,5 +1,5 @@
 const SITE = {
-  domain: 'https://kourionamphitheater.com',
+  domain: 'https://www.kourionamphitheater.com',
   fullName: 'Kourion Ancient Amphitheater',
   shortName: 'Kourion',
   city: 'Episkopi',
@@ -14,7 +14,7 @@ const SITE = {
     'https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site',
   telephone: '+35725934250',
   heroImage:
-    'https://kourionamphitheater.com/gallery/kourion-ancient-amphitheater-1.jpg',
+    'https://www.kourionamphitheater.com/gallery/kourion-ancient-amphitheater-1.jpg',
 };
 
 const allDays = [
@@ -27,7 +27,28 @@ const allDays = [
   'Sunday',
 ];
 
-export default async function JsonLd({ locale }: { locale: string }) {
+export default async function JsonLd({
+  locale,
+  data,
+}: {
+  locale?: string;
+  data?: object | object[];
+}) {
+  if (data) {
+    const arr = Array.isArray(data) ? data : [data];
+    return (
+      <>
+        {arr.map((d, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(d) }}
+          />
+        ))}
+      </>
+    );
+  }
+
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
 
   const faqItems: Array<{ question: string; answer: string }> =

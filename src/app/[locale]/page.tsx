@@ -19,6 +19,8 @@ import MapEmbed from '@/components/MapEmbed';
 import FAQSection from '@/components/FAQSection';
 import SeasonSection from '@/components/SeasonSection';
 import SourcesSection from '@/components/SourcesSection';
+import GuideLinks from '@/components/GuideLinks';
+import QuickLinks from '@/components/QuickLinks';
 import Footer from '@/components/Footer';
 
 export async function generateMetadata({
@@ -27,7 +29,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://kourionamphitheater.com';
+  const baseUrl = 'https://www.kourionamphitheater.com';
   return {
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -57,6 +59,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <QuickLinks />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />
@@ -71,6 +74,7 @@ export default async function HomePage({
         <FAQSection />
         <SeasonSection />
         <SourcesSection />
+        <GuideLinks />
         <MapEmbed />
       </main>
       <Footer />

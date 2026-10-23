@@ -79,6 +79,9 @@ export default function TicketsSection() {
             <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('guidedPrice')}</p>
           </div>
         </div>
+        {t.has('verified') && (
+          <p className="mt-4 text-xs" style={{ color: 'var(--text-secondary)' }}>{t('verified')}</p>
+        )}
       </div>
     </section>
   );

@@ -12,11 +12,18 @@
     "map": "地图",
     "backToHome": "返回首页"
   },
+  "quickLinks": {
+    "title": "快捷入口",
+    "hours": "开放时间",
+    "tickets": "门票",
+    "navigation": "导航",
+    "route": "参观路线"
+  },
   "hero": {
     "title": "库里翁古剧场（埃皮斯科皮）",
     "subtitle": "历史地标 · 埃皮斯科皮，利马索尔，塞浦路斯",
     "rating": "4.7",
-    "reviewCount": "6,433 条评价",
+    "reviewCount": "6,527 条评价",
     "type": "古迹遗址",
     "openMaps": "在Google地图上查看位置",
     "mapsLink": "https://maps.app.goo.gl/KxwFywyG12yxtgsF9"
@@ -25,6 +32,7 @@
     "title": "探索库里翁古剧场",
     "entityDeclaration": "欢迎来到库里翁古剧场（Kourion Ancient Amphitheater），它被广泛认为是库里翁（Kourion）的核心地标。这座遗址位于塞浦路斯利马索尔大区埃皮斯科皮（Episkopi）的中心地带，是该地区游客游览的主要枢纽。",
     "description": "库里翁古剧场是塞浦路斯最令人印象深刻的考古遗址之一。建于公元前2世纪，在罗马时期扩建，提供壮丽的地中海海景。如今，它继续举办文化表演和音乐会。",
+    "independentNote": "这是一个独立的非商业科普指南，与塞浦路斯古物局或任何官方机构均无关联，也不代理售票。",
     "breadcrumb": "库里翁古剧场 → 埃皮斯科皮 → 利马索尔大区 → 塞浦路斯",
     "nearbyCluster": "参观库里翁古剧场时，游客可以轻松探索周边历史地标与景点，包括阿波罗·希拉特斯圣殿与欧斯托利奥斯之屋。",
     "visitGuide": {
@@ -203,7 +211,7 @@
       },
       {
         "name": "埃皮斯科皮村",
-        "description": "遗址下方的本地村庄，拥有传统塞浦路斯小酒馆、埃皮斯科皮村博物馆，并可仰望古老的卫城。"
+        "description": "遗址下方的本地村庄，拥有传统塞浦路斯小酒馆，并可仰望古老的卫城。注意：埃皮斯科皮的库里翁地方考古博物馆自 2026 年 8 月 1 日起因升级工程临时关闭，重开日期另行公布——可改以遗址内的马赛克与阿波罗·希拉特斯圣殿等作为替代停留点。"
       }
     ]
   },
@@ -292,7 +300,7 @@
     "city": "城市",
     "cityValue": "利马索尔 (Lemesos)",
     "googleRating": "谷歌评分",
-    "googleRatingValue": "4.7 (6,433)",
+    "googleRatingValue": "4.7 (6,527)",
     "address": "地址",
     "addressValue": "MV7Q+P49, Episkopi（埃皮斯科皮）, Akrotiri and Dhekelia（阿克罗蒂里和德凯利亚）4620, 塞浦路斯",
     "telephone": "联系电话",
@@ -311,7 +319,8 @@
     "bestTimeSummer": "圣诞节、元旦和复活节休息",
     "bestTimeAutumn": "注意事项",
     "bestTimeWinter": "开放时间如有变更恕不另行通知",
-    "tip": "开放时间、关闭时间和门票价格如有变更，恕不另行通知。建议游客在参观前查询相关信息。"
+    "tip": "开放时间、关闭时间和门票价格如有变更，恕不另行通知。建议游客在参观前查询相关信息。",
+    "verified": "开放时间已于 2026 年 10 月对照 Visit Cyprus 核实。"
   },
   "tickets": {
     "title": "门票信息",
@@ -320,18 +329,19 @@
     "parking": "停车",
     "parkingPrice": "遗址内提供免费停车",
     "guided": "导览",
-    "guidedPrice": "由古物局提供（可现场咨询）"
+    "guidedPrice": "由古物局提供（可现场咨询）",
+    "verified": "门票价格与开放时间已于 2026 年 10 月对照 Visit Cyprus 核实。"
   },
   "transport": {
     "title": "位置与如何游览库里翁（埃皮斯科皮）",
     "fromCenter": "从利马索尔市中心",
     "fromCenterDesc": "距离利马索尔以西约19公里。建议开车或乘坐公交。",
     "fromStation": "公共交通",
-    "fromStationDesc": "从利马索尔乘坐16或17路公交到埃皮斯科皮。",
-    "fromAirport": "从帕福斯/拉纳卡机场",
-    "fromAirportDesc": "租车或乘坐出租车。距拉纳卡约40公里，距帕福斯约50公里。",
+    "fromStationDesc": "EMEL 16 路从利马索尔 Leontiou 站开往库里翁海滩；18 路从 My Mall 开往库里翁海滩。从海滩站点到遗址入口还需短途出租车或约 2 公里 uphill 步行，请提前安排最后一段路程。",
+    "fromAirport": "从帕福斯 / 拉纳卡机场",
+    "fromAirportDesc": "租车或乘坐出租车。距拉纳卡机场约 65 公里，距帕福斯机场约 50 公里（距离为约数，出行前请再次确认）。",
     "publicTransport": "公共交通",
-    "publicTransportDesc": "从利马索尔乘坐16/17路公交到埃皮斯科皮村。",
+    "publicTransportDesc": "EMEL 16 与 18 路停靠库里翁海滩，是距离遗址最近的公交站点。考古遗址入口位于海滩站点的内陆上坡处。",
     "walking": "步行",
     "walkingDesc": "从利马索尔市中心步行不推荐（19公里）。",
     "driving": "自驾",
@@ -379,46 +389,9 @@
   },
   "reviews": {
     "title": "游客评价",
-    "declaration": "评价信息可通过Google地图查看。",
+    "declaration": "我们展示 Google 总体评分快照，并链接到 Google Maps 查看单条评价。本网站不发布具名游客评价。",
     "moreReviews": "在Google地图上查看更多评价",
-    "items": [
-      {
-        "name": "詹姆斯 W.",
-        "rating": 5,
-        "date": "2026-04-10",
-        "text": "绝对令人惊叹！从剧场看到的景色令人屏息。塞浦路斯的必游之地。"
-      },
-      {
-        "name": "索菲亚 M.",
-        "rating": 5,
-        "date": "2026-03-22",
-        "text": "令人难以置信的古迹，音响效果惊人。地中海背景壮观。"
-      },
-      {
-        "name": "安德烈亚斯 K.",
-        "rating": 5,
-        "date": "2026-02-15",
-        "text": "丰富的历史和完好的保存。剧场仍举办表演 - 神奇的氛围！"
-      },
-      {
-        "name": "艾玛 L.",
-        "rating": 4,
-        "date": "2026-01-30",
-        "text": "美丽的遗址，景色很棒。建议早上参观以避开人群。"
-      },
-      {
-        "name": "迈克尔 R.",
-        "rating": 5,
-        "date": "2025-12-18",
-        "text": "迷人的历史片段。语音导览非常有用。"
-      },
-      {
-        "name": "琳达 T.",
-        "rating": 5,
-        "date": "2025-11-25",
-        "text": "塞浦路斯最好的考古遗址之一。剧场保存得非常出色。"
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "地图位置",
@@ -444,7 +417,7 @@
       "europeana": "塞浦路斯古物数字化平台"
     },
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
-    "lastUpdated": "内容最后更新：2026年8月。"
+    "lastUpdated": "内容最后更新：2026年10月。"
   },
   "officialManagement": {
     "title": "关于库里翁古剧场",
