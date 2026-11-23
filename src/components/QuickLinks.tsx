@@ -1,3 +1,4 @@
+import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
@@ -57,6 +58,7 @@ function iconFor(key: ItemKey) {
 
 export default function QuickLinks() {
   const t = useTranslations('quickLinks');
+  const locale = useLocale();
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -92,7 +94,7 @@ export default function QuickLinks() {
                 {inner}
               </a>
             ) : (
-              <Link key={it.key} href={it.href} className={className} style={style}>
+              <Link key={it.key} href={it.href.replace(/^\/en\//, `/${locale}/`)} className={className} style={style}>
                 {inner}
               </Link>
             );

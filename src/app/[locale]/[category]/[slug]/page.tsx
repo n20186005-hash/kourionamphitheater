@@ -3,7 +3,9 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import JsonLd from '@/components/JsonLd';
 import GuidePage from '@/components/GuidePage';
-import { allGuides, getGuide, CATEGORY_LABELS } from '@/lib/guides';
+import { guideAlternates, guideParams, localizedGuide } from '@/lib/localized-guides';
+import { guideText, isGuideLocale, type GuideLabel } from '@/lib/guide-ui';
+import Footer from '@/components/Footer';
 
 const SITE_URL = 'https://www.kourionamphitheater.com';
 
@@ -12,7 +14,7 @@ type Params = { locale: string; category: string; slug: string };
 export const dynamic = 'force-static';
 
 export function generateStaticParams(): Params[] {
-  return allGuides().map((g) => ({ locale: 'en', category: g.category, slug: g.slug }));
+  return guideParams();
 }
 
 export async function generateMetadata({
@@ -21,17 +23,18 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { locale, category, slug } = await params;
-  if (locale !== 'en') notFound();
-  const guide = getGuide(category, slug);
-  if (!guide) return {};
-  const url = `${SITE_URL}/en/${category}/${slug}`;
-  const photo = guide.visit?.photo;
+  if (!isGuideLocale(locale)) notFound();
+  const data = localizedGuide(category, slug, locale);
+  if (!data) return {};
+  const { guide, visit } = data;
+  const url = `${SITE_URL}/${locale}/${category}/${slug}`;
+  const photo = visit?.photo;
   return {
     title: guide.title,
     description: guide.metaDescription,
     alternates: {
       canonical: url,
-      languages: { en: url, 'x-default': url },
+      languages: guideAlternates(SITE_URL, category, slug),
     },
     openGraph: {
       title: guide.title,
@@ -49,13 +52,15 @@ export default async function GuideRoute({
   params: Promise<Params>;
 }) {
   const { locale, category, slug } = await params;
-  if (locale !== 'en') notFound();
+  if (!isGuideLocale(locale)) notFound();
   setRequestLocale(locale);
-  const guide = getGuide(category, slug);
-  if (!guide) notFound();
+  const data = localizedGuide(category, slug, locale);
+  if (!data) notFound();
+  const { guide } = data;
+  const t = guideText(locale);
 
-  const url = `${SITE_URL}/en/${category}/${slug}`;
-  const categoryLabel = CATEGORY_LABELS[guide.category] ?? guide.category;
+  const url = `${SITE_URL}/${locale}/${category}/${slug}`;
+  const categoryLabel = t(guide.category as GuideLabel);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -66,15 +71,15 @@ export default async function GuideRoute({
         url,
         name: guide.title,
         description: guide.metaDescription,
-        inLanguage: 'en',
+        inLanguage: locale,
         dateModified: guide.modified ?? '2026-10-20',
         isPartOf: { '@id': `${SITE_URL}/#website` },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
-          { '@type': 'ListItem', position: 2, name: categoryLabel, item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 1, name: t('home'), item: `${SITE_URL}/${locale}` },
+          { '@type': 'ListItem', position: 2, name: categoryLabel, item: `${SITE_URL}/${locale}#more-guides` },
           { '@type': 'ListItem', position: 3, name: guide.title, item: url },
         ],
       },
@@ -91,7 +96,8 @@ export default async function GuideRoute({
 
   return (
     <>
-      <GuidePage guide={guide} />
+      <main><GuidePage {...data} locale={locale} /></main>
+      <Footer />
       <JsonLd data={jsonLd} />
     </>
   );

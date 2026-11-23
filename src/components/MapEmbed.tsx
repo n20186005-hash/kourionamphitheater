@@ -35,7 +35,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Google Maps - Kourion Ancient Amphitheater"
+            title={`Google Maps · ${t('title')}`}
           />
         </div>
 

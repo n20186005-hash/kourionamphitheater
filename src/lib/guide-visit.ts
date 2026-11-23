@@ -15,6 +15,7 @@ export type GuideVisit = {
   place: string;
   address: string;
   mapUrl?: string;
+  mapAddress?: string;
   reviews?: boolean;
   manager?: string;
   access?: string;
@@ -132,9 +133,9 @@ export function guideVisit(guide: Guide): GuideVisit | undefined {
 }
 
 export function mapsLink(visit: GuideVisit): string {
-  return visit.mapUrl ?? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(visit.address)}`;
+  return visit.mapUrl ?? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(visit.mapAddress ?? visit.address)}`;
 }
 
 export function directionsLink(visit: GuideVisit): string {
-  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(visit.address)}`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(visit.mapAddress ?? visit.address)}`;
 }

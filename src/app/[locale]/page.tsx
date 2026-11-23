@@ -1,3 +1,5 @@
+import { isGuideLocale } from '@/lib/guide-ui';
+import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import JsonLd from '@/components/JsonLd';
@@ -51,6 +53,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!isGuideLocale(locale)) notFound();
   setRequestLocale(locale);
 
   return (
@@ -76,7 +79,7 @@ export default async function HomePage({
         <FAQSection />
         <SeasonSection />
         <SourcesSection />
-        <GuideLinks />
+        <GuideLinks locale={locale} />
         <MapEmbed />
       </main>
       <Footer />

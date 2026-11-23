@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { allGuides } from '@/lib/guides';
+import { guideAlternates } from '@/lib/localized-guides';
 
 const BASE_URL = 'https://www.kourionamphitheater.com';
 const LASTMOD = new Date('2026-10-20');
@@ -20,19 +21,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Guide pages: English-first batch. Other languages are added in a later
-  // phase; until then these URLs publish only an English + x-default signal.
   for (const g of allGuides()) {
-    const url = `${BASE_URL}/en/${g.category}/${g.slug}`;
-    entries.push({
-      url,
-      lastModified: g.modified ? new Date(g.modified) : LASTMOD,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-      alternates: {
-        languages: { en: url, 'x-default': url },
-      },
-    });
+    const languages = guideAlternates(BASE_URL, g.category, g.slug);
+    for (const locale of routing.locales) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/${g.category}/${g.slug}`,
+        lastModified: g.modified ? new Date(g.modified) : LASTMOD,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: { languages },
+      });
+    }
   }
 
   return entries;

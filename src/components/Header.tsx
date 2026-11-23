@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 
 export default function Header() {
   const t = useTranslations('header');
+  const brand = useTranslations('footer');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <a href={logoHref} className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
-          Kourion Ancient Amphitheater
+          {brand('brandName')}
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
