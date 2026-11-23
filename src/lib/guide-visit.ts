@@ -1,5 +1,16 @@
 import type { Guide } from './guides';
 
+export type GuidePhotoData = {
+  url: string;
+  source: string;
+  credit: string;
+  license: string;
+  licenseUrl?: string;
+  caption: string;
+  width: number;
+  height: number;
+};
+
 export type GuideVisit = {
   place: string;
   address: string;
@@ -10,7 +21,9 @@ export type GuideVisit = {
   transport?: string;
   source?: string;
   rating?: { value: string; count: string; date: string; dateLabel: string };
-  photo?: { url: string; source: string; credit: string; license: string; licenseUrl?: string; caption: string; width: number; height: number };
+  photo?: GuidePhotoData;
+  additionalPhoto?: GuidePhotoData;
+  about?: string;
 };
 
 const archaeologySource =
@@ -120,4 +133,8 @@ export function guideVisit(guide: Guide): GuideVisit | undefined {
 
 export function mapsLink(visit: GuideVisit): string {
   return visit.mapUrl ?? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(visit.address)}`;
+}
+
+export function directionsLink(visit: GuideVisit): string {
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(visit.address)}`;
 }

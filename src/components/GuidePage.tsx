@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import GuideVisitDetails, { GuidePhoto } from './GuideVisitDetails';
+import NearbyVisitorGuide from './NearbyVisitorGuide';
+import { nearbyVisitorFacts } from '@/lib/nearby-visitor-facts';
+import GuideVisitDetails, { GuidePhoto, SiteManagement } from './GuideVisitDetails';
 import { guideVisit, mapsLink } from '@/lib/guide-visit';
 import type { Guide } from '@/lib/guides';
 import { CATEGORY_LABELS, guideHrefByRef, GUIDES } from '@/lib/guides';
@@ -7,6 +9,7 @@ import { CATEGORY_LABELS, guideHrefByRef, GUIDES } from '@/lib/guides';
 export default function GuidePage({ guide }: { guide: Guide }) {
   const categoryLabel = CATEGORY_LABELS[guide.category] ?? guide.category;
   const visit = guideVisit(guide);
+  const facts = nearbyVisitorFacts(guide);
   return (
     <article className="section-padding">
       <div className="max-w-3xl mx-auto">
@@ -19,44 +22,63 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           <span style={{ color: 'var(--text-primary)' }}>{guide.title}</span>
         </nav>
 
-        <h1
-          className="font-display text-3xl sm:text-4xl font-semibold mb-4"
-          style={{ color: 'var(--text-primary)' }}
-        >
-          {guide.title}
-        </h1>
-
-        <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-secondary)' }}>
-          {guide.intro}
-        </p>
-
-        {visit && (
+        {facts && visit ? (
+          <NearbyVisitorGuide guide={guide} visit={visit} facts={facts} />
+        ) : (
           <>
-            <p className="mb-6 text-sm">
-              <a href={mapsLink(visit)} className="text-[var(--accent)] underline underline-offset-4">
-                {visit.place} · Google Maps
-              </a>
-            </p>
-            <GuidePhoto visit={visit} />
-            <GuideVisitDetails visit={visit} />
-          </>
-        )}
-
-        {guide.sections.map((section, i) => (
-          <section key={i} className="mb-8">
-            <h2
-              className="font-display text-xl sm:text-2xl font-semibold mb-3"
+            <h1
+              className="font-display text-3xl sm:text-4xl font-semibold mb-4"
               style={{ color: 'var(--text-primary)' }}
             >
-              {section.heading}
-            </h2>
-            {section.body.map((para, j) => (
-              <p key={j} className="leading-relaxed mb-3" style={{ color: 'var(--text-secondary)' }}>
-                {para}
-              </p>
+              {guide.title}
+            </h1>
+
+            <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-secondary)' }}>
+              {guide.intro}
+            </p>
+
+            {visit && (
+              <>
+                <p className="mb-6 text-sm">
+                  <a href={mapsLink(visit)} className="text-[var(--accent)] underline underline-offset-4">
+                    {visit.place} · Google Maps
+                  </a>
+                </p>
+                {visit.photo && <GuidePhoto photo={visit.photo} />}
+                <SiteManagement visit={visit} />
+                <GuideVisitDetails visit={visit} />
+              </>
+            )}
+
+            {guide.sections.map((section, i) => (
+              <section key={i} className="mb-8">
+                <h2
+                  className="font-display text-xl sm:text-2xl font-semibold mb-3"
+                  style={{ color: 'var(--text-primary)' }}
+                >
+                  {section.heading}
+                </h2>
+                {section.body.map((para, j) => (
+                  <p key={j} className="leading-relaxed mb-3" style={{ color: 'var(--text-secondary)' }}>
+                    {para}
+                  </p>
+                ))}
+              </section>
             ))}
-          </section>
-        ))}
+
+            {guide.walk && (
+              <section className="mb-8">
+                <h2 className="mb-3 font-display text-xl font-semibold sm:text-2xl">Suggested walk</h2>
+                <ol className="list-decimal space-y-3 pl-6 text-[var(--text-secondary)]">
+                  {guide.walk.map((step) => <li key={step}>{step}</li>)}
+                </ol>
+              </section>
+            )}
+
+            {visit?.additionalPhoto && <GuidePhoto photo={visit.additionalPhoto} />}
+
+          </>
+        )}
 
         {/* FAQ */}
         {guide.faq.length > 0 && (

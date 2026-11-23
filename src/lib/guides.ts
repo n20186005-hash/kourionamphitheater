@@ -17,6 +17,7 @@ export type Guide = {
   related: GuideRef[];
   updated: string;
   visit?: GuideVisit;
+  walk?: readonly string[];
   modified?: string;
 };
 

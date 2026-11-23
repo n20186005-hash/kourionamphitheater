@@ -1,4 +1,6 @@
 import type { Guide, GuideRef } from './guides';
+import { NEARBY_EDITORIAL } from './nearby-editorial';
+import { ADDITIONAL_NEARBY_PHOTOS } from './nearby-photos';
 import { NEARBY_PLACES } from './nearby-places';
 
 const kourion: GuideRef = { category: 'visit', slug: 'kourion-archaeological-site' };
@@ -18,6 +20,7 @@ const groups = [
 const published = new Set(NEARBY_PLACES.map((place) => place.slug));
 
 export const nearbyGuides: Guide[] = NEARBY_PLACES.map((place) => {
+  const editorial = NEARBY_EDITORIAL[place.slug];
   const neighbors = groups.find((group) => group.includes(place.slug)) ?? [];
   const related = neighbors
     .filter((slug) => slug !== place.slug && published.has(slug))
@@ -33,9 +36,11 @@ export const nearbyGuides: Guide[] = NEARBY_PLACES.map((place) => {
     intro: place.feature,
     sections: [
       { heading: 'Planning your visit', body: [place.plan] },
+      { heading: 'History and features', body: [editorial.history] },
       { heading: 'What to look for on site', body: [place.observation] },
     ],
-    faq: [],
+    walk: editorial.walk,
+    faq: [editorial.faq],
     related: [...related, kourion, limassol],
     updated: 'November 2026',
     modified: '2026-11-23',
@@ -43,10 +48,12 @@ export const nearbyGuides: Guide[] = NEARBY_PLACES.map((place) => {
       place: place.title,
       address: place.address,
       manager: place.manager,
+      about: editorial.about,
       access: place.access,
       transport: place.transport,
       source: place.source,
       photo: place.photo,
+      additionalPhoto: ADDITIONAL_NEARBY_PHOTOS[place.slug],
     },
   };
 });

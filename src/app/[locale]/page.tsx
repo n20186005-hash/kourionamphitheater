@@ -12,6 +12,7 @@ import FacilitiesSection from '@/components/FacilitiesSection';
 import InfoSection from '@/components/InfoSection';
 import LegendsSection from '@/components/LegendsSection';
 import NearbySection from '@/components/NearbySection';
+import NearbyGuideSection from '@/components/NearbyGuideSection';
 import RouteSection from '@/components/RouteSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
@@ -68,6 +69,7 @@ export default async function HomePage({
         <InfoSection />
         <LegendsSection />
         <NearbySection />
+        <NearbyGuideSection locale={locale} />
         <RouteSection />
         <Gallery />
         <Reviews />
