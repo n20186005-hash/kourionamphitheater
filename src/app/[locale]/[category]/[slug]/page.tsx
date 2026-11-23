@@ -9,7 +9,7 @@ const SITE_URL = 'https://www.kourionamphitheater.com';
 
 type Params = { locale: string; category: string; slug: string };
 
-export const dynamicParams = false;
+export const dynamic = 'force-static';
 
 export function generateStaticParams(): Params[] {
   return allGuides().map((g) => ({ locale: 'en', category: g.category, slug: g.slug }));
@@ -20,10 +20,12 @@ export async function generateMetadata({
 }: {
   params: Promise<Params>;
 }): Promise<Metadata> {
-  const { category, slug } = await params;
+  const { locale, category, slug } = await params;
+  if (locale !== 'en') notFound();
   const guide = getGuide(category, slug);
   if (!guide) return {};
   const url = `${SITE_URL}/en/${category}/${slug}`;
+  const photo = guide.visit?.photo;
   return {
     title: guide.title,
     description: guide.metaDescription,
@@ -36,6 +38,7 @@ export async function generateMetadata({
       description: guide.metaDescription,
       url,
       type: 'article',
+      images: photo ? [{ url: photo.url, width: photo.width, height: photo.height, alt: photo.caption }] : undefined,
     },
   };
 }
@@ -46,6 +49,7 @@ export default async function GuideRoute({
   params: Promise<Params>;
 }) {
   const { locale, category, slug } = await params;
+  if (locale !== 'en') notFound();
   setRequestLocale(locale);
   const guide = getGuide(category, slug);
   if (!guide) notFound();
@@ -63,7 +67,7 @@ export default async function GuideRoute({
         name: guide.title,
         description: guide.metaDescription,
         inLanguage: 'en',
-        dateModified: '2026-10-20',
+        dateModified: guide.modified ?? '2026-10-20',
         isPartOf: { '@id': `${SITE_URL}/#website` },
       },
       {

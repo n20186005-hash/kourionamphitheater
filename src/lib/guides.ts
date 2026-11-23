@@ -1,3 +1,6 @@
+import type { GuideVisit } from './guide-visit';
+import { nearbyGuides } from './nearby-guides';
+
 export type GuideSection = { heading: string; body: string[] };
 export type GuideFaq = { question: string; answer: string };
 export type GuideRef = { category: string; slug: string };
@@ -13,6 +16,8 @@ export type Guide = {
   faq: GuideFaq[];
   related: GuideRef[];
   updated: string;
+  visit?: GuideVisit;
+  modified?: string;
 };
 
 export const CATEGORY_LABELS: Record<string, string> = {
@@ -2195,6 +2200,7 @@ export const GUIDES: Guide[] = [
     ],
     updated: 'October 2026',
   },
+  ...nearbyGuides,
 ];
 
 export function getGuide(category: string, slug: string): Guide | undefined {

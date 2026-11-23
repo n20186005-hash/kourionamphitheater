@@ -1,9 +1,12 @@
 import Link from 'next/link';
+import GuideVisitDetails, { GuidePhoto } from './GuideVisitDetails';
+import { guideVisit, mapsLink } from '@/lib/guide-visit';
 import type { Guide } from '@/lib/guides';
 import { CATEGORY_LABELS, guideHrefByRef, GUIDES } from '@/lib/guides';
 
 export default function GuidePage({ guide }: { guide: Guide }) {
   const categoryLabel = CATEGORY_LABELS[guide.category] ?? guide.category;
+  const visit = guideVisit(guide);
   return (
     <article className="section-padding">
       <div className="max-w-3xl mx-auto">
@@ -26,6 +29,18 @@ export default function GuidePage({ guide }: { guide: Guide }) {
         <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-secondary)' }}>
           {guide.intro}
         </p>
+
+        {visit && (
+          <>
+            <p className="mb-6 text-sm">
+              <a href={mapsLink(visit)} className="text-[var(--accent)] underline underline-offset-4">
+                {visit.place} · Google Maps
+              </a>
+            </p>
+            <GuidePhoto visit={visit} />
+            <GuideVisitDetails visit={visit} />
+          </>
+        )}
 
         {guide.sections.map((section, i) => (
           <section key={i} className="mb-8">

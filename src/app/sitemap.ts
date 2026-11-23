@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const url = `${BASE_URL}/en/${g.category}/${g.slug}`;
     entries.push({
       url,
-      lastModified: LASTMOD,
+      lastModified: g.modified ? new Date(g.modified) : LASTMOD,
       changeFrequency: 'monthly',
       priority: 0.7,
       alternates: {

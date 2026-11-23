@@ -35,7 +35,7 @@ export default function GuideLinks() {
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {groups.map((group) => (
-            <div key={group.category}>
+            <div key={group.category} id={group.category === 'nearby' ? 'nearby-guides' : undefined}>
               <h3
                 className="font-display text-lg font-semibold mb-3"
                 style={{ color: 'var(--text-primary)' }}
